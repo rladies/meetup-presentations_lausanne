@@ -31,3 +31,7 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+
+# individual files
+logo/R-LadiesGlobal_CMYK_offline_LogoOnly.pdf
+logo/R-LadiesGlobal_CMYK_offline_LogoWithText_Horizontal.pdf
