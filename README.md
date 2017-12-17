@@ -1,5 +1,4 @@
-
-![nix](https://github.com/rladies/starter-kit/blob/master/logo/R-LadiesGlobal_RBG_online_LogoWithText_Horizontal.png "" =250x)
+<img src="https://github.com/rladies/starter-kit/blob/master/logo/R-LadiesGlobal_RBG_online_LogoWithText_Horizontal.png" alt="Drawing" style="width: 200px;"/>
 
 # R-Ladies Lausanne
 Founded in November 2017. 
