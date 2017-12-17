@@ -1,3 +1,6 @@
+
+![nix](https://github.com/rladies/starter-kit/tree/master/logoR-LadiesGlobal_RBG_online_LogoWithText_Horizontal.png)
+
 # R-Ladies Lausanne
 Founded in November 2017. 
 
