@@ -9,7 +9,7 @@ Meet & Greet / Kickoff of R-Ladies in Lausanne [@Anthropole](https://goo.gl/maps
 [Poster]()
 
 ## Past events
-| Date  | Time  | Topic  | Type  | Place  | Register  |
+| Date  | Time  | Topic  | Type  | Place  | Slides  |
 |---|---|---|---|---|---|
 <!---| 1-Feb-2018  | 6 pm  | Meet & Greet & 5min-talks  | Kickoff  | [@Anthropole](https://goo.gl/maps/vpsdsAj4isT2)   | [register](https://www.eventbrite.com/e/r-ladies-lausanne-tickets-40902966875)  |
 |   |   |   |   |   |   |
