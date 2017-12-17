@@ -1,4 +1,4 @@
-<img src="https://github.com/rladies/starter-kit/blob/master/logo/R-LadiesGlobal_RBG_online_LogoWithText_Horizontal.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://github.com/rladies/starter-kit/blob/master/logo/R-LadiesGlobal_RBG_online_LogoWithText_Horizontal.png" alt="Drawing" style="width: 100px;"/>
 
 # R-Ladies Lausanne
 Founded in November 2017. 
