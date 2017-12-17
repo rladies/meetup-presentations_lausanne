@@ -5,11 +5,11 @@
 Founded in November 2017. 
 
 ## Upcoming events
-Meet & Greet / Kickoff of R-Ladies in Lausanne [@Anthropole](https://goo.gl/maps/vpsdsAj4isT2)
+1 Feb 2018, 6 pm **Meet & Greet / Kickoff**  of R-Ladies in Lausanne [@Anthropole](https://goo.gl/maps/vpsdsAj4isT2)
 
 :point_right: [register here!](https://www.eventbrite.com/e/r-ladies-lausanne-tickets-40902966875)  
 
-[Poster](https://github.com/rladies/meetup-presentations_lausanne/blob/master/event_20180201_kickoff/kickoff_poster.pdf)
+[Our poster](https://github.com/rladies/meetup-presentations_lausanne/blob/master/event_20180201_kickoff/kickoff_poster.pdf)
 
 ## Past events
 | Date  | Time  | Topic  | Type  | Place  | Slides  |
