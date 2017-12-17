@@ -15,15 +15,13 @@ Organisers are: [Andrea Komljenovic](https://twitter.com/antifreezeprot), [Ninon
 
 Checkout our [Meetup page](http://meetu.ps/c/3Flzf/vBnX0/f).
 
-To keep in touch, use twitter: [@RLadiesLausanne](https://twitter.com/RLadiesLausanne)
+Follow us on [Twitter](https://twitter.com/RLadiesLausanne).
 
-or subscribe to our [Newsletter](goo.gl/X5H6u5).
+Or subscribe to our [Newsletter](goo.gl/X5H6u5).
 
 You can contact us via <rladieslausanne@gmail.com>.
 
-We follow the [code of conduct](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct)
-
-[Rules & Guidelines](https://github.com/rladies/starter-kit/blob/master/R-Ladies_RulesGuidelines.pdf)
+We follow the [code of conduct](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct) and encourage participants to read [Rules & Guidelines of R-Ladies](https://github.com/rladies/starter-kit/blob/master/R-Ladies_RulesGuidelines.pdf).
 
 
 ## Events
