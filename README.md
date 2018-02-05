@@ -5,18 +5,18 @@
 Founded in November 2017. 
 
 ## Upcoming events
-:date: 1 Feb 2018, 6 pm **Meet & Greet / Kickoff**  of R-Ladies in Lausanne [@Anthropole](https://goo.gl/maps/vpsdsAj4isT2)
+:date: 14 March 2018, **Shiny Tutorial**  of R-Ladies in Lausanne.
 
-:point_right: [register here!](https://www.eventbrite.com/e/r-ladies-lausanne-tickets-40902966875)  
+:point_right: [Registration opens soon]()  
 
-:mag_right: [poster](https://github.com/rladies/meetup-presentations_lausanne/blob/master/event_20180201_kickoff/kickoff_poster.pdf)
+:mag_right: [Info](https://www.meetup.com/rladies-lausanne/events/247414318/)
 
 ## Past events
 | Date  | Time  | Topic  | Type  | Place  | Slides  |
 |---|---|---|---|---|---|
-<!---| 1-Feb-2018  | 6 pm  | Meet & Greet & 5min-talks  | Kickoff  | [@Anthropole](https://goo.gl/maps/vpsdsAj4isT2)   | [register](https://www.eventbrite.com/e/r-ladies-lausanne-tickets-40902966875)  |
-|   |   |   |   |   |   |
-|   |   |   |   |   |   |--->
+| 1-Feb-2018  | 6 pm  | Meet & Greet & 5min-talks  | Kickoff  | [@Anthropole](https://goo.gl/maps/vpsdsAj4isT2)   | [Intro to R-Ladies](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-kickoff-presentation.pdf) + [ggarrange](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-lightning_multipage_pdf_lw.pdf) |
+| 14-March-2018  | tbd  | Shiny  | Tutorial  | tbd  |  |
+|   |  |  |   |   |   |
 
 ## Speakers
 R-Ladies lives through its participants. We *ALWAYS* need speakers for meetups! Please get in touch with us at <rladieslausanne@gmail.com>. 
@@ -28,7 +28,7 @@ You can contact us via <rladieslausanne@gmail.com>.
 
 Checkout our [Meetup page](http://meetu.ps/c/3Flzf/vBnX0/f).
 
-Follow us on [Twitter](https://twitter.com/RLadiesLausanne).
+Follow us on [Twitter](https://twitter.com/RLadiesLausanne) or [Facebook](https://www.facebook.com/RLadiesLausanne/).
 
 Or subscribe to our [Newsletter](goo.gl/X5H6u5).
 
