@@ -19,7 +19,7 @@ Founded in November 2017.
 |   |  |  |   |   |   |
 
 ## Speakers
-R-Ladies lives through its participants. We *ALWAYS* need speakers for meetups! Please get in touch with us at <rladieslausanne@gmail.com>. 
+R-Ladies lives through its participants. We *ALWAYS* need speakers for meetups! Please get in touch with us at <lausanne@rladies.org>. 
 
 ## Further information
 Organisers are: [Andrea Komljenovic](https://twitter.com/antifreezeprot), [Ninon Mounier](https://wp.unil.ch/sgg/ninon-mounier/), [Sarvenaz Choobdar](https://www2.unil.ch/cbg/index.php?title=User:Sarvenaz) and [Sina R&uuml;eger](https://twitter.com/sinarueeger).
