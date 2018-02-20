@@ -7,7 +7,7 @@ Founded in November 2017.
 ## Upcoming events
 :date: 14 March 2018, **Shiny Tutorial**  of R-Ladies in Lausanne.
 
-:point_right: [Registration opens soon]()  
+:point_right: [Registration](https://www.meetup.com/rladies-lausanne/events/247414318/)  
 
 :mag_right: [Info](https://www.meetup.com/rladies-lausanne/events/247414318/)
 
@@ -15,7 +15,7 @@ Founded in November 2017.
 | Date  | Time  | Topic  | Type  | Place  | Slides  |
 |---|---|---|---|---|---|
 | 1-Feb-2018  | 6 pm  | Meet & Greet & 5min-talks  | Kickoff  | [@Anthropole](https://goo.gl/maps/vpsdsAj4isT2)   | [Intro to R-Ladies](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-kickoff-presentation.pdf) + [ggarrange](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-lightning_multipage_pdf_lw.pdf) |
-| 14-March-2018  | 6 pm  | Shiny  | Introduction  | [@Genopode](University of Lausanne, Genopode, Auditorium A (https://goo.gl/maps/Fo8rctLTWgm) )  |  |
+| 14-March-2018  | 6 pm  | Shiny  | Introduction  | [UNIL-Genopode Auditorium A](https://goo.gl/maps/Fo8rctLTWgm) )  |  |
 |   |  |  |   |   |   |
 
 ## Speakers
