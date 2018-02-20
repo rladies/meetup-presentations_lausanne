@@ -24,7 +24,7 @@ R-Ladies lives through its participants. We *ALWAYS* need speakers for meetups! 
 ## Further information
 Organisers are: [Andrea Komljenovic](https://twitter.com/antifreezeprot), [Ninon Mounier](https://wp.unil.ch/sgg/ninon-mounier/), [Sarvenaz Choobdar](https://www2.unil.ch/cbg/index.php?title=User:Sarvenaz) and [Sina R&uuml;eger](https://twitter.com/sinarueeger).
 
-You can contact us via <rladieslausanne@gmail.com>.
+You can contact us via <lausanne@rladies.org>.
 
 Checkout our [Meetup page](http://meetu.ps/c/3Flzf/vBnX0/f).
 
