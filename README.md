@@ -7,9 +7,7 @@ Founded in November 2017.
 ## Upcoming events
 :date: 13 April 2018, **R and Bayesian Statistics** by [Elizaveta Semenova](https://elizavetasemenova.github.io/blog/) (TPH Basel).
 
-:point_right: [Registration (tbd)]()  
-
-:mag_right: [Info (tbd)]()
+:point_right: [Registration & Info](https://www.meetup.com/rladies-lausanne/events/248694983/)  
 
 ## Past events
 | Date  | Time  | Topic  | Type  | Place  | Slides  |
