@@ -30,7 +30,7 @@ Checkout our [Meetup page](http://meetu.ps/c/3Flzf/vBnX0/f).
 
 Follow us on [Twitter](https://twitter.com/RLadiesLausanne) or [Facebook](https://www.facebook.com/RLadiesLausanne/).
 
-Or subscribe to our [Newsletter](goo.gl/X5H6u5).
+Or subscribe to our [Newsletter](http://lb.benchmarkemail.com//listbuilder/signupnew?jt3QTAdq2aW38eiNExHI%252BP5pwVnAjsSINOfkdxXKUVUQ9amXwphcsjciHg%252FVbFy1).
 
 We follow the [Code of Conduct](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct) and encourage participants to read [Rules & Guidelines of R-Ladies](https://github.com/rladies/starter-kit/blob/master/R-Ladies_RulesGuidelines.pdf).
 
