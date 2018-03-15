@@ -13,7 +13,7 @@ Founded in November 2017.
 | Date  | Time  | Topic  | Type  | Place  | Slides  |
 |---|---|---|---|---|---|
 | 1-Feb-2018  | 6 pm  | Meet & Greet & 5min-talks  | Kickoff  | [@Anthropole](https://goo.gl/maps/vpsdsAj4isT2)   | [Intro to R-Ladies](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-kickoff-presentation.pdf) + [ggarrange](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-lightning_multipage_pdf_lw.pdf) |
-| 14-March-2018  | 6 pm  | Shiny  | Introduction  | [UNIL-Genopode Auditorium A](https://goo.gl/maps/Fo8rctLTWgm) )  | [Presentation](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_presentation.pdf) + [Examples](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_examples.zip) |
+| 14-March-2018  | 6 pm  | Shiny  | Introduction  | [UNIL-Genopode Auditorium A](https://goo.gl/maps/Fo8rctLTWgm) | [Presentation](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_presentation.pdf) + [Examples](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_examples.zip) |
 | 13-April-2018 | noon | R and Bayesian Statistics |   |  [Swisscom Digital Lab @ EPFL](https://goo.gl/maps/FgR9FPv33LA2) |   |
 
 ## Speakers
