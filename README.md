@@ -33,4 +33,6 @@ Or subscribe to our [Newsletter](http://lb.benchmarkemail.com//listbuilder/signu
 We follow the [Code of Conduct](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct) and encourage participants to read [Rules & Guidelines of R-Ladies](https://github.com/rladies/starter-kit/blob/master/R-Ladies_RulesGuidelines.pdf).
 
 
+## Sponsors
+- [R-consortium](https://www.r-consortium.org/projects/r-user-group-support-program) (vector level)
 
