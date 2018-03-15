@@ -5,18 +5,18 @@
 Founded in November 2017. 
 
 ## Upcoming events
-:date: 14 March 2018, **Shiny Tutorial**  of R-Ladies in Lausanne.
+:date: 14 March 2018, **R and Bayesian Statistics** by [Elizaveta Semenova](https://elizavetasemenova.github.io/blog/) (TPH Basel).
 
-:point_right: [Registration](https://www.meetup.com/rladies-lausanne/events/247414318/)  
+:point_right: [Registration (tbd)]()  
 
-:mag_right: [Info](https://www.meetup.com/rladies-lausanne/events/247414318/)
+:mag_right: [Info (tbd)]()
 
 ## Past events
 | Date  | Time  | Topic  | Type  | Place  | Slides  |
 |---|---|---|---|---|---|
 | 1-Feb-2018  | 6 pm  | Meet & Greet & 5min-talks  | Kickoff  | [@Anthropole](https://goo.gl/maps/vpsdsAj4isT2)   | [Intro to R-Ladies](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-kickoff-presentation.pdf) + [ggarrange](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-lightning_multipage_pdf_lw.pdf) |
-| 14-March-2018  | 6 pm  | Shiny  | Introduction  | [UNIL-Genopode Auditorium A](https://goo.gl/maps/Fo8rctLTWgm) )  |  |
-|   |  |  |   |   |   |
+| 14-March-2018  | 6 pm  | Shiny  | Introduction  | [UNIL-Genopode Auditorium A](https://goo.gl/maps/Fo8rctLTWgm) )  | [Presentation](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_presentation.pdf) + [Examples](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_examples.zip) |
+| 13-April-2018 | noon | R and Bayesian Statistics |   |   |   |
 
 ## Speakers
 R-Ladies lives through its participants. We *ALWAYS* need speakers for meetups! Please get in touch with us at <lausanne@rladies.org>. 
