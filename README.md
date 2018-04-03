@@ -30,6 +30,14 @@ Follow us on [Twitter](https://twitter.com/RLadiesLausanne) or [Facebook](https:
 
 Or subscribe to our [Newsletter](http://lb.benchmarkemail.com//listbuilder/signupnew?jt3QTAdq2aW38eiNExHI%252BP5pwVnAjsSINOfkdxXKUVUQ9amXwphcsjciHg%252FVbFy1).
 
+**FAQ**
+
+Q: I'm not a frequent R user, and I'm afraid I won't understand the presentations.
+A: No worries! Our meetups are open to people from all levels and also aim for networking. We also encourage to ask questions if something is not clear.
+
+Q: I'm a guy, and it seems this meetup is only for women.
+A: This group is mainly aimed at minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) but is open to all that agree to the CoC (https://rladies.org/code-of-conduct/). However, leadership roles remain reserved for minority genders.
+
 We follow the [Code of Conduct](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct) and encourage participants to read [Rules & Guidelines of R-Ladies](https://github.com/rladies/starter-kit/blob/master/R-Ladies_RulesGuidelines.pdf).
 
 
