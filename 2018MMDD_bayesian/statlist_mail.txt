@@ -5,8 +5,8 @@ We are happy to announce our 3rd R-Ladies Lausanne Meetup.
  
 Presenter: Elizaveta Semenova from Swiss Tropical and Public Health Institute, Basel (https://elizavetasemenova.github.io/)
 
-Date:	April 13 ; 12h-14h    
-Location: Swisscom Digital Lab at noon (lunch included).
+Date: April 13 at noon (lunch included)
+Location: Swisscom Digital Lab
 
 Prerequisite:  
 A basic knowledge or classical (frequentist) statistics is needed.
