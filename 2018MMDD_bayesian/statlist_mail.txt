@@ -1,7 +1,7 @@
 We are happy to announce our 3rd R-Ladies Lausanne Meetup. 
 
 
-"R and Bayesian Statistics"
+"Introduction to the use of R for Bayesian statistics analyses"
  
 Presenter: Elizaveta Semenova from Swiss Tropical and Public Health Institute, Basel (https://elizavetasemenova.github.io/)
 
