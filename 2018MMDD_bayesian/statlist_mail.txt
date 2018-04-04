@@ -14,7 +14,7 @@ Ideally, bring a laptop with installed R and the RStan library:
 - Linux: https://github.com/stan-dev/rstan/wiki/Installing-RStan-on-Mac-or-Linux
 - Windows: https://github.com/stan-dev/rstan/wiki/Installing-RStan-on-Windows
 
-Registration: please register here before April XX
+Registration is free but mandatory:
 https://www.meetup.com/fr-FR/rladies-lausanne/events/248694983/	
 
 
