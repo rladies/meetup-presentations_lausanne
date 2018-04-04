@@ -36,7 +36,9 @@ We follow the [Code of Conduct](https://github.com/rladies/starter-kit/wiki/Code
 ## FAQ
 
 Q: I'm not a frequent R user, and I'm afraid I won't understand the presentations.
+
 A: No worries! Our meetups are open to people from all levels and also aim for networking. We also encourage to ask questions if something is not clear.
+
 
 Q: I'm a guy, and it seems this meetup is only for women.
 
