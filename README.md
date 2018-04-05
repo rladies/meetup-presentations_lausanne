@@ -5,18 +5,16 @@
 Founded in November 2017. 
 
 ## Upcoming events
-:date: 14 March 2018, **Shiny Tutorial**  of R-Ladies in Lausanne.
+:date: 13 April 2018, **R and Bayesian Statistics** by [Elizaveta Semenova](https://elizavetasemenova.github.io/blog/) (TPH Basel).
 
-:point_right: [Registration](https://www.meetup.com/rladies-lausanne/events/247414318/)  
-
-:mag_right: [Info](https://www.meetup.com/rladies-lausanne/events/247414318/)
+:point_right: [Registration & Info](https://www.meetup.com/rladies-lausanne/events/248694983/)  
 
 ## Past events
 | Date  | Time  | Topic  | Type  | Place  | Slides  |
 |---|---|---|---|---|---|
 | 1-Feb-2018  | 6 pm  | Meet & Greet & 5min-talks  | Kickoff  | [@Anthropole](https://goo.gl/maps/vpsdsAj4isT2)   | [Intro to R-Ladies](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-kickoff-presentation.pdf) + [ggarrange](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-lightning_multipage_pdf_lw.pdf) |
-| 14-March-2018  | 6 pm  | Shiny  | Introduction  | [UNIL-Genopode Auditorium A](https://goo.gl/maps/Fo8rctLTWgm) )  |  |
-|   |  |  |   |   |   |
+| 14-March-2018  | 6 pm  | Shiny  | Introduction  | [UNIL-Genopode Auditorium A](https://goo.gl/maps/Fo8rctLTWgm) | [Presentation](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_presentation.pdf) + [Examples](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_examples.zip) |
+| 13-April-2018 | noon | R and Bayesian Statistics |   |  [Swisscom Digital Lab @ EPFL](https://goo.gl/maps/FgR9FPv33LA2) |   |
 
 ## Speakers
 R-Ladies lives through its participants. We *ALWAYS* need speakers for meetups! Please get in touch with us at <lausanne@rladies.org>. 
@@ -32,7 +30,22 @@ Follow us on [Twitter](https://twitter.com/RLadiesLausanne) or [Facebook](https:
 
 Or subscribe to our [Newsletter](http://lb.benchmarkemail.com//listbuilder/signupnew?jt3QTAdq2aW38eiNExHI%252BP5pwVnAjsSINOfkdxXKUVUQ9amXwphcsjciHg%252FVbFy1).
 
+## Code of Conduct
 We follow the [Code of Conduct](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct) and encourage participants to read [Rules & Guidelines of R-Ladies](https://github.com/rladies/starter-kit/blob/master/R-Ladies_RulesGuidelines.pdf).
 
+## FAQ
 
+*Q: I'm not a frequent R user, and I'm afraid I won't understand the presentations.*
+
+A: No worries! Our meetups are open to people from all levels and also aim for networking. We also encourage to ask questions if something is not clear.
+
+
+*Q: I'm a guy, and it seems this meetup is only for women.*
+
+A: This group is mainly aimed at minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) but is open to all that agree to the [CoC](https://rladies.org/code-of-conduct/). However, leadership roles remain reserved for minority genders.
+
+
+
+## Sponsors
+- [R-consortium](https://www.r-consortium.org/projects/r-user-group-support-program) (vector level)
 
