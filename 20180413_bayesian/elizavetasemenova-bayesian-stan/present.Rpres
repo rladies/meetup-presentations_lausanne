@@ -1,0 +1,738 @@
+Bayesian statistics with R: an introduction.
+========================================================
+author: Elizaveta Semenova
+
+date:   13 April 2018
+
+
+
+Plan1
+========================================================
+title: flase
+
+## What we will cover in the next hour
+<br>
+- **What** is Bayesian inference?
+- **Why** use Bayesian inference?
+- **How** to perform Bayesian inference?
+
+
+Plan2
+========================================================
+title: flase
+
+## What we will NOT cover:
+<br>
+- Why should one use Bayesian approach always and **never try anything else.**
+
+We will learn
+========================================================
+title: flase
+
+## We will use R in the practical part
+<br>
+```{r}
+print("All models are wrong, but some are useful.")
+```
+</center>
+
+Pre-requisites
+========================================================
+title: flase
+
+## Pre-requisites
+<br>
+- familiarity with frequentist (classical) statistics,
+- installed R/RStudio and Stan.
+
+What
+========================================================
+title: flase
+<br>
+<br>
+<br>
+<br>
+**<h1 style="text-align:center;">WHAT</h1>**
+
+What is Bayesian inference?
+========================================================
+title: flase
+## What is Bayesian inference?
+<br>
+<br>
+<br>
+**Bayesian inference** is the process of deducing properties of a probability distribution from data using Bayes’ theorem.
+
+
+Conditional probability
+========================================================
+title: flase
+## Conditional probability
+<br>
+<br>
+<br>
+Bayes' theorem relies heavily on the notion of **conditional probability**.
+
+Conditional probability
+========================================================
+title: false
+## Conditional probability
+<div align="center">
+<img src="conditional_b.png" height=500>
+</div>
+
+
+Conditional probability
+========================================================
+title: false
+## Conditional probability
+<br>
+Conditional probability of A given B:
+<br>
+<br>
+$$P(A \vert B)=\frac{P(A \cap B)}{P(B)}.$$
+
+
+$P(A \vert B)$ - probability of event A given B has occured<br>
+$P(A \cap B)$ - probability of event A occured and B occured
+
+
+Conditional probability: intuition
+========================================================
+title:false
+## Conditional probability: intuition
+<br>
+There are <font color="blue">2 blue</font> and <font color="red">3 red</font> marbles in the bag. 
+
+What is the probability that the first two pulled marbles are blue?
+
+<center>**Solve it intuitively!**</center>
+
+
+Bayes' Theorem
+========================================================
+title:false
+
+## Bayes' Theorem
+From the formula above, we get
+
+$$P(A \cap B)=P(A \vert B)P(B).$$
+Similarly,
+$$P(A \cap B)=P(B \vert A) P(A).$$
+Hence,
+$$P(A \vert B)P(B)=P(B \vert A) P(A).$$
+
+What can we conclude for $P(A \vert B)$?
+
+Bayes' Theorem
+========================================================
+title:false
+
+And we obtain
+
+$$P(A \vert B)=\frac{P(B \cap A)}{P(B)} = P(B \vert A) \frac{P(A)}{P(B)}$$
+
+The conditional probability of A given B is the
+conditional probability of B given A scaled by the relative
+probability of A compared to B.
+
+Bayes' Theorem
+========================================================
+title:false
+
+In practice, we usually want to estimate the unknown model parameters 
+$$\theta = (\theta_1, ..., \theta_k),$$ given
+the observed data $$y = (y_1, ..., y_n)$$
+by using the Bayes' rule:
+$$P(\theta \vert y) =  \frac{P(y \vert \theta) P(\theta)}{P(y)}.$$
+
+
+
+Bayes' Theorem example: spam filtering
+========================================================
+title:false
+## Bayes' Theorem example: spam filtering
+<div align="center">
+<img src="spam.jpeg" height=200>
+</div>
+We would like to test a message for being a spam, by checking that it
+contains a predefined set of words or word combinations, which are
+common for spam messages ("Free investment", "Dear email"):
+<br>
+<br>
+<br>
+$$P(\text{spam } \vert \text{ words}) =  \frac{P(\text{spam}) P(\text{words } \vert \text{ spam})}{P(\text{words})}$$
+
+
+Bayes' Theorem
+========================================================
+title:false
+In terms of probability densities
+<br>
+<br>
+$$f(x \vert y)=f(y \vert x) \frac{f(x)}{f(y)}$$
+<br>
+which is commonly formulated with the proportionality sign:
+<br>
+<br>
+$$f(x \vert y) \propto f(y \vert x) f(x)$$
+<br>
+since $f(y)$ does not contain parameters.
+
+
+Bayes' Theorem
+========================================================
+title:false
+The **posterior distribution** is being formed as
+<br>
+<br>
+$$f(\theta \vert y) \propto f(y \vert \theta) f(\theta).$$
+
+- $f(\theta)$ is the **prioir** and expresses our beliefs about $\theta$
+
+- $f(y \vert \theta)$ is the **likehod** of data $y$ as a function of $\theta$
+
+- we dropped $f(y)$ because the average likelihood across all parameter values
+$$f(y) = \int_{\theta_1} ... \int_{\theta_k} f(\theta) f(y \vert \theta) d\theta_1 ... d\theta_k = E_{\theta}f(y \vert \theta)$$
+does not depend on $\theta$  (hence will not influence the inference) and is very hard to compute. 
+
+Components of the bayesian model
+========================================================
+title:false
+## Components of the bayesian model
+<br>
+- Likelihood
+- Prior
+- Posterior
+
+$$\text{Posterior} = \frac{\text{Likelihood × Prior}}{\text{Average Likelihood}} \propto \text{Likelihood × Prior}$$
+
+Why
+========================================================
+title: flase
+<br>
+<br>
+<br>
+<br>
+**<h1 style="text-align:center;">WHY</h1>**
+
+example1
+========================================================
+title: flase
+
+## Diagnosing the cause of headache
+<div align="center">
+<img src="head.jpg" height=150>
+</div>
+
+**Frequentist doctor:**
+- Model for the cause of pain (mental)
+- Probe with fingers<br>
+
+**Bayesian doctor:**
+- Model for the cause of pain (mental)
+- History of the patient
+- Probe with fingers
+
+
+Why
+========================================================
+title: flase
+
+<br>
+<br>
+**The likelihood principle:** all of the information in a sample is contained in the likelihood function, a density or distribution function.
+- The data are modeled by likelihood only.
+- Not all statistical paradigms agree with this principle.
+
+Frequetist vs Bayesian approaches
+========================================================
+title: false
+## Frequetist vs Bayesian approaches
+**Classical (frequentist):**
+- parameters are fixed,
+- parameters can only be estimated using the current data.
+
+**Bayesian:**
+- parameters are described by distributions (i.e. reflecting uncertainty),
+- estimation is based on our belief about parameters and the current data.
+
+Why use Bayesian inference?
+========================================================
+title: false
+## Why use Bayesian inference?
+<br>
+- It is a good way to **combine multiple sources of information**,
+- It is more **flexible in uncertainty modeling**, particularly under small amount of available data.
+
+Note:
+- Results are essentially equal with enough data.
+
+
+How
+========================================================
+title: flase
+<br>
+<br>
+<br>
+<br>
+**<h1 style="text-align:center;">HOW</h1>**
+
+What does it take?
+========================================================
+title: flase
+<br>
+## What does it take?
+- Data,
+- A generative model,
+- Our beliefs before seeing the data.
+<br>
+<br>
+
+## What does it make?
+- The values of parameters that could give rise to the observed data **in the form of a distribution**.
+
+How
+========================================================
+- **analytically**<br>
+Elegnat, but rarely possible.
+<br><br>
+- **numerically**
+<br>
+  * Create **posterior** samples, describing the distributions of parameters.
+  * We achieve this by exploring the space of parameters to find the most probable combination of parameters. 
+  * Further we treat the obtained sampled as new data, to extract information about parameters, such as mean and/or credible interval.
+
+  
+Analytically
+========================================================
+<div align="center">
+<img src="conj.png" height=400>
+</div>
+
+
+Numerically
+========================================================
+
+- Markov Chain Monte Carlo
+  * Metropolis-Hastings
+  * Gibbs
+  * Hamiltonian Monte Carlo
+- Variational Bayes
+- Approximate Bayesian Computation (ABC)
+- Particle filters
+- Laplace approximation
+
+
+Priors
+========================================================
+<br>
+- Informative / Non-informative
+- **Conjugate priors** guarantee that the posterior has an easily calculable form.
+
+
+Examples
+========================================================
+<center>
+```{r}
+##############################################
+# prioir x likelihood = posterior
+##############################################
+
+ # define grid
+p <- seq( from=0, to=1,length.out=1000)
+
+# compute likelihood at each value in grid
+likelihood <- dbinom(6, size=9 , prob=p)
+```
+</center>
+
+Examples: define a function to compute posterior
+========================================================
+```{r}
+computePosterior = function(likelihood, prior){
+ 
+  posterior <- likelihood*prior
+  posterior <- posterior/sum(posterior)
+  
+  par(mfrow=c(1,3))
+  plot(p, prior, type="l", main="Prioir")
+  plot(p, likelihood, type="l", main="Likelihood")
+  plot(p, posterior , type="l", main="Posterior")
+  
+}
+```
+
+Examples
+========================================================
+<center>
+```{r,echo=TRUE,fig.width=12}
+prior1 <- rep( 1 , 1000 )
+computePosterior(likelihood, prior1)
+```
+</center>
+
+
+Examples
+========================================================
+<center>
+```{r,echo=TRUE,fig.width=12}
+prior2 <- ifelse(p< 0.5 , 0 , 1 )
+computePosterior(likelihood, prior2)
+```
+</center>
+
+Examples
+========================================================
+<center>
+```{r,echo=TRUE,fig.width=12}
+prior3 <- exp( -5*abs( p - 0.5 ))
+computePosterior(likelihood, prior3)
+```
+</center>
+
+
+Gibbs algorithm
+========================================================
+title: false
+## Gibbs algorithm
+- Start with initial values $\theta_1^0,...,\theta_n^0.$
+- Sample  $\theta_1^1 ∼ p(\theta_1 \vert \theta_2^0,...,\theta_n^0)$. <br>
+Current state is $\theta_1^1,...,\theta_n^0.$<br>
+Sample  $\theta_2^1 ∼ p(\theta_2 \vert \theta_1^1,...,\theta_n^0)$. <br>
+Current state $\theta_1^1,\theta_2^1,...,\theta_n^0.$<br>
+...
+- Sample  $\theta_1^2 ∼ p(\theta_2 \vert \theta_2^1,...,\theta_n^1)$. <br>
+Current state is $\theta_1^2,...,\theta_n^1.$<br>
+<br>
+and so on.
+
+Gibbs algorithm
+========================================================
+title: false
+## Gibbs algorithm
+This procedure defines a sequence of random variables
+<center>
+$(\theta_1^0,...,\theta_n^0),$<br>
+$(\theta_1^1,...,\theta_n^1),$<br>
+...<br>
+$(\theta_1^N,...,\theta_n^N).$<br>
+</center>
+
+We run the chain for $N$ iterations and discard the first $B$ samples. This is called **burn-in**.
+
+We can run several parallel versions of the algorithm. Each of them is called a **chain.**
+
+Neigbouring samples will contain similar information. We might want to save only every second, or fifth, or tenth. This is called **thinnning.**
+
+
+Gibbs sampler
+========================================================
+title: false
+## Gibbs sampler
+
+Let us build the Gibbs sampler fr the following problem:<br><br>
+$$\begin{aligned}
+y_1, ..., y_n &∼ N(\mu, \sigma^2), \\
+ \mu &∼ N(\mu_0, \sigma^2_0).
+\end{aligned}
+$$
+
+Here 
+$\mu, \sigma^2$ arethe model *parameters*, 
+<br>
+and $\mu_0, \sigma^2_0$ are *hyperparameters*.
+
+Gibbs sampler
+========================================================
+title:false
+## Gibbs sampler
+<br>
+```{r}
+#########################################
+# Gibbs sampler: simulate data
+#########################################
+set.seed(938565)
+mu <- 4
+sigma2 <- 16
+n <- 500
+y <- rnorm(n=n, mean=mu, sd=sqrt(sigma2))
+```
+
+Gibbs sampler
+========================================================
+title:false
+## Gibbs sampler
+<center>
+```{r}
+hist(y)
+```
+</center>
+
+Gibbs sampler
+========================================================
+title:false
+## Gibbs sampler
+<br>
+```{r}
+# Define the hyperparameters
+mu0 <- -3
+sigma2_0 <- 4
+a0 <- 1.6
+b0 <- 0.4
+```
+
+Gibbs sampler
+========================================================
+title:false
+## Gibbs sampler
+<br>
+```{r}
+# parameters for MCMC
+niter = 10000
+nwarmup = round(niter/2)
+nthin = floor((niter-nwarmup)/500)
+nchains = 1
+parameters = c("mu", "sigma2", "inv_sigma2")
+nparameters = length(parameters)
+ntot = nwarmup + niter*nthin
+```
+
+Gibbs sampler
+========================================================
+title:false
+## Gibbs sampler
+<br>
+```{r}
+# create container to store samples
+gibbs_samples <- matrix(NA, nrow=niter, ncol=nparameters)
+colnames(gibbs_samples) <- parameters
+head(gibbs_samples,3)
+```
+
+Gibbs sampler
+========================================================
+title:false
+## Gibbs sampler
+<br>
+```{r}
+mu.sim <- rep(NA, length = ntot)
+sigma2.sim <- rep(NA, length = ntot)
+inv.sigma2.sim <- rep(NA, length = ntot)
+```
+
+Gibbs sampler
+========================================================
+title:false
+## Gibbs sampler
+<br>
+```{r}
+#Set the initial value
+sigma2.sim[1] <- 1/runif(nchains)
+
+# set the counter
+k <- 1
+```
+
+Gibbs sampler
+========================================================
+title:false
+## Gibbs sampler
+
+Continue with the code on the GitHub repository.
+
+Gibbs sampler
+========================================================
+title:false
+## Gibbs sampler
+<br>
+```{r}
+# niter samples after n.burnin taking every n.thin'th sample
+dim(gibbs_samples)
+
+mu_gibbs_samples <- gibbs_samples[,"mu"]
+sigma2_gibbs_samples <- gibbs_samples[,"sigma2"]
+inv_sigma2_gibbs_samples <- gibbs_samples[,"inv_sigma2"]
+```
+
+Gibbs sampler
+========================================================
+title:false
+## Gibbs sampler
+<br>
+For each chain inspect
+- Traceplots,
+- Histograms, 
+- Auto-correlation.
+
+
+Software
+========================================================
+title:false
+left: 60%
+<center>
+<br>
+## Software
+- WinBUGS
+- OpenBUGS
+- JAGS
+- Stan
+- R-INLA<br>
+and more.
+
+***
+<br>
+<br>
+<div>
+<img src="CRANbayes.png" height=600>
+</div>
+</center>
+
+Stan example
+========================================================
+title:false
+## Stan example
+<br>
+```{r}
+########################################
+# Stan example: bernoulli
+########################################
+
+# include library
+library(rstan) 
+```
+
+Stan example
+========================================================
+title:false
+## Stan example
+```{r, verbose=FALSE}
+# ground truth value
+theta = 0.2  
+
+# number of observations to simulate
+N = 1000    
+
+y = rbinom(N, prob=theta, size=1)
+print(paste0("Proportion of sucesses = ", round(sum(y==1)/sum(y==0),2)))
+```
+
+Stan example
+========================================================
+title:false
+## Stan example
+```{r}
+# prepare the data
+data_stan = list(N=N, y=y)
+
+# chose your working directory
+#setwd("~/Dropbox/RLausanne")
+setwd("C:/Users/semeel/Desktop/RLadiesLausanne-master/RLadiesLausanne-master")
+
+# name of the model file
+modname = "stan/bernoulli.stan"
+```
+
+Stan example
+========================================================
+title:false
+## Stan example
+```{r}
+# compile
+mod = stan_model(modname)
+```
+
+Stan example
+========================================================
+title:false
+## Stan example
+```{r}
+# sample
+niter = 500
+fit = sampling(mod, 
+               data=data_stan, 
+               chains = 1, 
+               warmup=round(niter/2), 
+               iter=niter, 
+               thin=5, 
+               cores = 1,
+               refresh = round(niter/100))
+```
+
+
+Using the draws
+========================================================
+title:false
+## Using the draws
+We can compute anything on them (see the code).
+<center>
+```{r,  echo=TRUE}
+pars = c('theta')
+stan_dens(fit, pars = pars)
+```
+</center>
+
+
+Examples of what one can do with R/Stan
+========================================================
+title:false
+## Examples of what one can do with R/Stan
+It would be strange if I said nothing about my research. My PhD work includes:
+
+- study of large-scale Gaussian processes to produce smooth maps of spatio-temporal processes,
+<div align="center">
+<img src="map1.png" height=200><img src="map2.png" height=200><img src="map3.png" height=200><img src="map4.png" height=200>
+</div>
+
+- Bayesian count time series modeling to perform outbreaks detection.
+
+
+
+Literature
+========================================================
+title:false
+
+## Literature
+
+- Statistical Rethinking: A Bayesian Course with Examples in R and Stan. By R. McElreath. Chapman and Hall/CRC, 2015.
+
+- Bayesian Data Analysis. By A. Gelman, J.B. Carlin, H.S. Stern, D.B. Dunson, A. Vehtari, D.B. Rubin. Chapman & Hall/CRC, 3rd edition, 2013.
+
+- Doing Bayesian Data Analysis: A Tutorial with R, JAGS and Stan. By J. Kruschke, Academic Press, 2014.
+
+Conclusion
+========================================================
+title: false
+## Conclusion
+Trying to learn Bayesian statistics in just one hour is a bit of a joke.
+
+But we managed to understand
+- what it is,
+- why it is beneficial,
+- how to perform Bayesian inference,
+- what makes it hard.
+
+Congratulations and thank you!
+
+Connect
+========================================================
+title: false
+left: 60%
+<center>
+<br>
+## Stay in touch
+ **Twitter**<br> 
+ @liza_p_semenova<br>
+ **Blog**<br>
+ elizavetasemenova.github.io<br>
+ **E-mail**<br>
+ elizaveta.p.semenova @ gmail.com<br>
+
+***
+<br>
+<br>
+<div>
+<img src="connect.png" height=350>
+</div>
+</center>
+
