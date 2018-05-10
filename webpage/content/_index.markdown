@@ -3,6 +3,7 @@ title: Home
 ---
 
 # Welcome to R-Ladies Lausanne!
+<a href="https://rladies.org/"><img src="/files/R-LadiesGlobal_RBG_online_LogoOnly.svg" alt="R-Ladies Logo" height="100" /></a> 
 
 <!--- ### Events -->
 Find out about upcoming (and past) [**events**](/events/).

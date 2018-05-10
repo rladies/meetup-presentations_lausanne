@@ -8,7 +8,6 @@ categories:
 tags:
   - shiny
   - biostatistics
-draft: true
 ---
 
 
@@ -53,10 +52,10 @@ using R before but I really didn't feel like I was good enough to create an R pa
 <u>ED</u>: I'm very happy with ggplot2. When I learned that, I felt that my plots became so much nicer. I felt much more professional. But also when I learned Shiny, that was really really cool and really inspiring to see what you can do.
 
 #### SR: What are you planning to learn next in R? 
-<u>ED</u>: Right now, I would like to learn how to work better deal with big data in R. Also data management, dplyr. And it would also be cool to learn how to do more advanced plotting.
+<u>ED</u>: Right now, I would like to learn how to work better with big data in R. Also data management, dplyr. And it would also be cool to learn how to do more advanced plotting.
 
 #### SR: What motivated you to give a talk at R-Ladies?
-<u>ED</u>: When I had done my first shiny app, I felt it was really amazing and I really wanted to share my experience of doing that, because it was quite easy. And the result is pretty cool. You can really make your R functions of the code available for everyone, not only those who use R. So it kind of drastically lowers the threshold for getting into R with shiny apps. And I think that's really nice.
+<u>ED</u>: When I had done my first shiny app, I felt it was really amazing and I really wanted to share my experience of doing that, because it was quite easy. And the result is pretty cool. You can really make your R functions of the code available for everyone, not only those who use R. So using Shiny it is possible to drastically lowers the threshold for non-R users to get into R. And I think that's really nice.
 
 <img src="/files/2018-03-14-shiny/DSC02087.png" alt="-" height="300" />
 
@@ -64,7 +63,7 @@ using R before but I really didn't feel like I was good enough to create an R pa
 <u>ED</u>: The rumours are right! We plan to have the first meeting in in September or October. I found four other people in Stockholm from a different domains: One is working with geo data at a private company, the second one is more into biostatistics, the third one does image processing, the fourth one is working with machine learning. In terms of profiles we're a pretty diverse group. So I hope that this way, we can attract people from  different areas too. 
 
 #### SR: Would you like to do some free advertisement?
-<u>ED</u>: There are two really nice initiatives in Stockholm that I would like to promote. I haven't participated that much, but hope to do so in the future. One is [Pink Programming](https://www.pinkprogramming.se/), which is targeted to women at all proficency levels and covers all kinds of different programming languages. You meet on a Sunday and spend the whole day getting to know new people and developing your programming skills. The second one is [Foo Cafe](http://foocafe.org/) in Stockholm. That is a cafe that hosts meetups. They even find sponsors for you and help you with the venue and everything. I think it's so convenient make meetupss like R-Ladies easy to organize.
+<u>ED</u>: There are two really nice initiatives in Stockholm that I would like to promote. I haven't participated that much, but hope to do so in the future. One is [Pink Programming](https://www.pinkprogramming.se/), which is targeted to women at all proficency levels and covers all kinds of different programming languages. You meet on a Sunday and spend the whole day getting to know new people and developing your programming skills. The second one is [Foo Cafe](http://foocafe.org/) in Stockholm. That is a cafe that hosts meetups. They even find sponsors for you and help you with the venue and everything. I think places like the Foo cafe makes initiatives like R-ladies much more easy to organize! 
 
 #### SR: Thank you & all the best for R-Ladies Stockholm!
 <u>ED</u>: Thank you!
