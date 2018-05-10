@@ -1,0 +1,5 @@
+library(dplyr)
+rladies_global %>% filter(city==“Lausanne”)
+
+https://twitter.com/RLadiesNatal/status/981606071876882433
+

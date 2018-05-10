@@ -1,0 +1,52 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "R-Ladies Lausanne"
+theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+publishDir = "../../rladieslausanne.github.io"
+
+enableEmoji = true
+enablefa = true
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "News & Blogposts"
+    url = "/post/"
+    weight = 1
+[[menu.main]]
+    name = "Community"
+    url = "/community/"
+    weight = 2
+[[menu.main]]
+    name = "Events"
+    url = "/events/"
+    weight = 3
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 5
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 6
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+
+
+[params]
+    description = "R-Ladies Lausanne"
+    footer = "&copy; R-Ladies Lausanne 2018"
+    
