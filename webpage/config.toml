@@ -33,12 +33,12 @@ enablefa = true
     url = "/about/"
     weight = 4
 [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 5
-[[menu.main]]
     name = "Home"
     url = "/"
+    weight = 5
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
     weight = 6
 [[menu.main]]
     name = "Subscribe"

@@ -13,7 +13,7 @@ The content of our meetups varies:
 
 If you would like to **speak at a meetup** or have an idea for an event :arrow_right: [email us](emailto:lausanne@rladies.org).
 
-We also encourage to **bring along your R problems** 30 min before the meetup starts - we :purple_heart: solving R riddles!
+We also encourage you to **bring along your R problems** 30 min before the meetup starts - we :purple_heart: solving R riddles!
 
 ## Upcoming Events
 

@@ -29,15 +29,7 @@ If you know somebody that could present at our meetup, let us know!
 
 The goal of this webpage is, to keep people informed about our meetups under [news & blogposts](/categories/posts/), by posting  [**news**](/categories/news/), summaries from past [**meetups**](/categories/meetup/), [**interviews**](/categories/interview/) of our [speakers](/community/#speakers) and list [**blogposts**](/categories/blogpost/).
 
-Would you like to contribute a *blogpost*? Or do you make notes during meetups and would like to share them with everyone? Here are two markdown templates that you can use for these purposes. 
-
-**Templates**
-
-- [Template for **meetup summary**](/files/template/template_meetup.md)
-- [Template for **blogpost**](/files/template/template_blogpost.md)
-
-
-Send us the markdown file via email and we will publish it!
+Would you like to contribute a *blogpost*? Or do you make notes during meetups and would like to share them with everyone? Send us the markdown file via email at <lausanne@rladies.org>.
 
 ## Help the organisers 
 

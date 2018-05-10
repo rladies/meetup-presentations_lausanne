@@ -1,4 +1,5 @@
-#start blogdown#
+## Compile Webpage and push it to rladieslausanne.github.io
+## =========================================================
 
 ## installation here: https://bookdown.org/yihui/blogdown/installation.html
 #install.packages("blogdown")
@@ -8,27 +9,29 @@
 #blogdown::install_hugo()
 
 library(blogdown)
-#blogdown::new_site(theme = "yihui/hugo-xmin")
+## >> creates new website, but because we have ours already, don't do that :-) 
+## blogdown::new_site(theme = "yihui/hugo-xmin")
 
-
-## 1) update content, whatever, create new post
+## 1) if you want a new post:
 #new_post(title="A first post using blogdown", kind = ".Rmd")
 
 ## 2) update website
+## ---------------------------
 blogdown::hugo_build()
 
-## 3) commit changes to github >> do in terminal
-## go to terminal
-cd /Users/admin/Documents/Projects/rladies/rladieslausanne.github.io
-git add -f *
-git commit -a -m 'update'
-git push
+## 3) go to a terminal
+## ---------------------------
 
-## 3) commit changes to from hidden folder
-## go to terminal
-cd /Users/admin/Documents/Projects/rladies/rladies_lausanne_private/webpage
-git add -f *
-git commit -a -m 'fixed the icons + picture'
-git push
+## a) commit changes to github 
+## cd /Users/admin/Documents/Projects/rladies/rladieslausanne.github.io
+## git add -f *
+## git commit -a -m 'your commit message'
+## git push
 
+## b) commit changes of webpage folder
+## go to terminal
+## cd /Users/admin/Documents/Projects/rladies/rladies_lausanne_private/webpage
+## git add -f *
+## git commit -a -m 'your commit message'
+## git push
 
