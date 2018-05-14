@@ -30,7 +30,7 @@ blogdown::hugo_build()
 
 ## b) commit changes of webpage folder
 ## go to terminal
-## cd /Users/admin/Documents/Projects/rladies/rladies_lausanne_private/webpage
+## cd /Users/admin/Documents/Projects/rladies/meetup-presentations_lausanne/webpage
 ## git add -f *
 ## git commit -a -m 'your commit message'
 ## git push
