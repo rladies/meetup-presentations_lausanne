@@ -1,0 +1,30 @@
+We are happy to announce our 4th R-Ladies Lausanne Meetup. 
+
+"ThundeR talks" (mixed topics of 10-20 min length)
+ 
+Program: 
+
+1. "Talking in Circos - circular visualisation in R" by Liza Darrous
+2. "Computational text analysis using 'quanteda' " by Susan Kamal
+3. “Diving into #tidytuesday - a weekly social data project" by Andrea and Sina
+
+Date: June 7 (6:30 pm: arrival, 7 pm: talks start, 8 pm: apero & networking)
+Location: ImpactHub Lausanne (https://goo.gl/maps/PoDVGeBE1B82)
+
+Registration here: https://www.meetup.com/rladies-lausanne/events/250462129/
+
+
+We look forward to meeting you!
+ 
+Kind regards, 
+R-Ladies Lausanne
+
+--- 
+
+Find us online ----------------------------- https://rladieslausanne.github.io/
+Talk to us --------------------------------- lausanne@rladies.org
+Check out *upcoming meetups* --------------- https://www.meetup.com/rladies-lausanne/about/
+Follow us on *twitter* --------------------- twitter.com/rladieslausanne
+Check out material from *previous meetups* - https://github.com/rladies/meetup-presentations_lausanne
+
+
