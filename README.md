@@ -5,14 +5,7 @@
 Founded in November 2017. 
 
 ## Upcoming events
-
-
-## Past events
-| Date  | Time  | Topic  | Type  | Place  | Slides  |
-|---|---|---|---|---|---|
-| 1-Feb-2018  | 6 pm  | Meet & Greet & 5min-talks  | Kickoff  | [@Anthropole](https://goo.gl/maps/vpsdsAj4isT2)   | [Intro to R-Ladies](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-kickoff-presentation.pdf) + [ggarrange](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-lightning_multipage_pdf_lw.pdf) |
-| 14-March-2018  | 6 pm  | Shiny  | Introduction  | [UNIL-Genopode Auditorium A](https://goo.gl/maps/Fo8rctLTWgm) | [Presentation](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_presentation.pdf) + [Examples](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_examples.zip) |
-| 13-April-2018 | noon | [R and Bayesian Statistics](https://www.meetup.com/rladies-lausanne/events/248694983/)  by [Elizaveta Semenova](https://elizavetasemenova.github.io/blog/) (TPH Basel)| Tutorial  |  [Swisscom Digital Lab @ EPFL](https://goo.gl/maps/FgR9FPv33LA2) | [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20180413_bayesian/elizavetasemenova-bayesian-stan)   |
+See [here](https://rladieslausanne.github.io/events/).
 
 ## Speakers
 R-Ladies lives through its participants. We *ALWAYS* need speakers for meetups! Please get in touch with us at <lausanne@rladies.org>. 
@@ -21,6 +14,8 @@ R-Ladies lives through its participants. We *ALWAYS* need speakers for meetups! 
 Organisers are: [Andrea Komljenovic](https://twitter.com/antifreezeprot), [Ninon Mounier](https://wp.unil.ch/sgg/ninon-mounier/), [Sarvenaz Choobdar](https://www2.unil.ch/cbg/index.php?title=User:Sarvenaz) and [Sina R&uuml;eger](https://twitter.com/sinarueeger).
 
 You can contact us via <lausanne@rladies.org>.
+
+Checkout our [webpage](https://rladieslausanne.github.io).
 
 Checkout our [Meetup page](http://meetu.ps/c/3Flzf/vBnX0/f).
 
