@@ -19,9 +19,9 @@ Elisabeth Dahlqwist [<i class="fab fa-twitter"></i>](https://twitter.com/Elistif
 
 
 
-<a href="https://github.com/downloads/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_presentation.pdf"><img src="/files/img_slides.png" alt="Slides" height="70" /></a>
+<a href="https://github.com/rladies/meetup-presentations_lausanne/raw/master/20180314_shiny/shiny_presentation.pdf"><img src="/files/img_slides.png" alt="Slides" height="70" /></a>
 
-<a href="https://github.com/downloads/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_examples.zip"><img src="/files/img_material.png" alt="Github Logo" height="70" /></a> 
+<a href="https://github.com/rladies/meetup-presentations_lausanne/raw/master/20180314_shiny/shiny_examples.zip"><img src="/files/img_material.png" alt="Github Logo" height="70" /></a> 
 
 
 <img src="/files/2018-03-14-shiny/DSC02080-small.png" alt="-" height="300" />
