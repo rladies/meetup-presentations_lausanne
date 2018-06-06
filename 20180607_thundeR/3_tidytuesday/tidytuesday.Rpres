@@ -1,0 +1,154 @@
+#TidyTuesday
+========================================================
+author: Andrea + Sina
+date: June 7 2018
+autosize: true
+
+
+Levels of understanding
+========================================================
+
+There are four stages of understanding of TidyTuesday
+
+1. those who have not heard of it
+2. those who came across but don't know what it is
+3. those who know what it is
+4. those who participated
+
+The good news is, that transitioning from 1 - 4 is super easy. 
+
+R4DS community
+========================================================
+
+- R4DS community $\to$ http://www.rfordatasci.com/
+- R4DS is a book: http://r4ds.had.co.nz/ (online for free, hardcopy costs)
+- people behind are: jesse megan and 
+
+In August of 2017 Jessie Maegen (\@kierisi) launched an experiment, referred to as the R for Data Science Online Learning Community, with the goal of creating a supportive and responsive online space for learners and mentors to gather and work through the R for Data Science text.
+
+Slack + mentors, own pace
+
+
+Tidyverse ecosystem
+========================================================
+```{r prerequiste, eval=FALSE, echo=TRUE, message=FALSE, warning=FALSE, results=FALSE}
+library(tidyverse)
+```
+
+![some caption](tidytuesday-figure/tidyverse.png)
+
+https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/
+
+comparison: like filter etc.
+
+What is #TidyTuesday?
+========================================================
+
+- is a hashtag used on twitter
+- twitter > important
+- a project by the R4DS community $\to$ http://www.rfordatasci.com/
+- a weekly visualisation project: https://github.com/rfordatascience/tidytuesday
+- addresses the need in learning the tidyverse ecosystem, having a small ...+ some kind of template
+- started in April
+- data released on monday, work on tuesday, publish on twitter. 
+
+Previous datasets
+========================================================
+
+![some caption](tidytuesday-figure/previous-tidytuesdays.png)
+
+
+Example: Data + publication  
+========================================================
+
+Data + tidyverse = ![graph](tidytuesday-figure/comic.png)
+
+- This combination allows you to different levels: reproduce or make something new
+- having a community: learn from others
+
+Activity
+========================================================
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Number of <a href="https://twitter.com/hashtag/TidyTuesday?src=hash&amp;ref_src=twsrc%5Etfw">#TidyTuesday</a> tweets has held steady after initial burst of activity. I&#39;m hoping it lasts for a while! <a href="https://t.co/dx7sbsrZhh">pic.twitter.com/dx7sbsrZhh</a></p>&mdash; Mike Kearney📊 (@kearneymw) <a href="https://twitter.com/kearneymw/status/1004107694389780486?ref_src=twsrc%5Etfw">June 5, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+Currently: Week 10
+========================================================
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Welcome to week 10 of <a href="https://twitter.com/hashtag/tidytuesday?src=hash&amp;ref_src=twsrc%5Etfw">#tidytuesday</a>!<br><br>In collaboration with <a href="https://twitter.com/cascadiarconf?ref_src=twsrc%5Etfw">@cascadiarconf</a> and <a href="https://twitter.com/smithjd?ref_src=twsrc%5Etfw">@smithjd</a> let&#39;s explore <a href="https://twitter.com/hashtag/biketown?src=hash&amp;ref_src=twsrc%5Etfw">#biketown</a> data!<br><br>Data: <a href="https://t.co/J46z0iFGQp">https://t.co/J46z0iFGQp</a><br>Source: <a href="https://t.co/kLmoBtPOLy">https://t.co/kLmoBtPOLy</a><br><br>Source was made in <a href="https://twitter.com/hashtag/tableau?src=hash&amp;ref_src=twsrc%5Etfw">#tableau</a> but let&#39;s see what open source <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> can do!<a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://twitter.com/hashtag/tidyverse?src=hash&amp;ref_src=twsrc%5Etfw">#tidyverse</a> <a href="https://t.co/D1YjgwIz9a">pic.twitter.com/D1YjgwIz9a</a></p>&mdash; R4DS online learning community (@R4DScommunity) <a href="https://twitter.com/R4DScommunity/status/1003677238120910848?ref_src=twsrc%5Etfw">June 4, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+Week 10: data
+========================================================
+
+Data + ![Biketown](tidytuesday-figure/biketown.png)
+
+
+Week 10: work
+========================================================
+
+Twitter thread
+
+
+Hands-on
+========================================================
+
+Article: https://www.biketownpdx.com/system-data
+|
+ Week | Date | Data | Source | Article
+| :---: | :---: | :--- | :--- | :---|
+|
+| 9 | 2018-05-29 | [Comic book characters](https://github.com/rfordatascience/tidytuesday/blob/master/data/week9_comic_characters.csv) | [FiveThirtyEight package](https://github.com/rudeboybert/fivethirtyeight) | [FiveThirtyEight.com](https://fivethirtyeight.com/features/women-in-comic-books/)|
+| 10 | 2018-06-05 | [Biketown Bikeshare tidy](https://github.com/rfordatascience/tidytuesday/blob/master/data/week10_biketown.zip) [RAW DATA](https://github.com/rfordatascience/tidytuesday/blob/master/data/week10_biketown_raw.zip) | [BiketownPDX](https://www.biketownpdx.com/system-data) | [Biketown](https://www.biketownpdx.com/system-data) [cascadiaRconf/cRaggy](https://cascadiarconf.com/agenda/#craggy) |
+
+
+
+
+Hands-on R-Code
+========================================================
+
+
+
+```{r}
+library(tidyverse)#```
+
+# week 9: Comic characters
+
+```{r week9}
+## from https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/
+## 
+dat.bike <- read_csv("tidytuesday-data/week9_comic_characters.csv")
+
+```
+
+## week 10: Biketown Bikeshare
+
+```{r week10}
+## from https://github.com/rfordatascience/tidytuesday/blob/master/data/week10_biketown.zip
+dat.bike <- read_csv("tidytuesday-data/week10_biketown.csv")
+
+```
+
+
+Slide
+========================================================
+
+```{r}
+
+ggplot(data = dat %>% filter(sex %in% c("Female","Male"))) + geom_bar(aes(publisher, fill = align), position="fill") + facet_wrap(~sex)
+
+
+
+###
+dat <- dat %>% mutate(sex = str_remove(sex, " Characters"))
+
+
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
