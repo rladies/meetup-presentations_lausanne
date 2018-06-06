@@ -8,12 +8,13 @@ autosize: true
 library(emo)
 ```
 
+<!-- run with rmarkdown::render('tidytuesday.Rpres')-->
+
 Why TidyTuesday?
 ========================================================
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/TidyTuesday?src=hash&amp;ref_src=twsrc%5Etfw">#TidyTuesday</a> is a great initiative for <a href="https://twitter.com/hashtag/SoDS18?src=hash&amp;ref_src=twsrc%5Etfw">#SoDS18</a> learners looking for practice projects to check out! <a href="https://t.co/xQSnpq5j8x">https://t.co/xQSnpq5j8x</a></p>&mdash; Data Science Renee (@BecomingDataSci) <a href="https://twitter.com/BecomingDataSci/status/1004395020831608832?ref_src=twsrc%5Etfw">June 6, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 
 Levels of understanding
 ========================================================
@@ -26,6 +27,7 @@ There are four stages of understanding of the concept of TidyTuesday:
 4. Participate.
 
 The good news is, that transitioning from 1 - 4 is super easy by design!
+
 
 R4DS community
 ========================================================
@@ -44,11 +46,14 @@ Goal: *creating a supportive and responsive online space for learners and mentor
 
 Tidyverse ecosystem
 ========================================================
-```{r prerequiste, eval=FALSE, echo=TRUE, message=FALSE, warning=FALSE, results=FALSE}
+
+```{r eval=FALSE, echo=TRUE, message=FALSE, warning=FALSE, results=FALSE}
+
 library(tidyverse)
+
 ```
 
-![some caption](tidytuesday-figure/tidyverse.png)
+![](tidytuesday-figure/tidyverse.png)
 
 https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/
 
@@ -72,26 +77,38 @@ Datasets: the gold mine!
 
 Variety of types of data
 
-![some caption](tidytuesday-figure/previous-tidytuesdays.png)
+![](tidytuesday-figure/previous-tidytuesdays.png)
 
 
-Example: Data + publication  
+
+
+The principle: Data + Publication  
 ========================================================
 
-<!-- <img src="tidytuesday-figure/data_comic.png" height="100"/> + -->
+![](tidytuesday-figure/data_comic.png)
 
-![](tidytuesday-figure/data_comic.png)  + ![](tidytuesday-figure/tidyverse_sticker.jpg)  = ![](tidytuesday-figure/comic.png)
++
+
+![](tidytuesday-figure/tidyverse_sticker.jpg) 
+
+***
+ = ![](tidytuesday-figure/comic.png)
+
+
+What are the possibilities?
+========================================================
 
 - This combination of data + published figures allows you to explore tidyverse on different levels: reproduce something or create something new
 - having a community: learn from others
 
-Example: create something new!
+
+Example of creating something new!
 ========================================================
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My <a href="https://twitter.com/hashtag/TidyTuesday?src=hash&amp;ref_src=twsrc%5Etfw">#TidyTuesday</a> week 9 submission: top 10 hair colors for comic book characters. I excluded NAs, bald and no hair, and I manually set the plot colors to match the categorical variables :) <a href="https://t.co/h36n8xLveK">pic.twitter.com/h36n8xLveK</a></p>&mdash; Nathania Johnson (@nlj) <a href="https://twitter.com/nlj/status/1001920513244057600?ref_src=twsrc%5Etfw">May 30, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Activity
+Activity around #TidyTuesday
 ========================================================
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Number of <a href="https://twitter.com/hashtag/TidyTuesday?src=hash&amp;ref_src=twsrc%5Etfw">#TidyTuesday</a> tweets has held steady after initial burst of activity. I&#39;m hoping it lasts for a while! <a href="https://t.co/dx7sbsrZhh">pic.twitter.com/dx7sbsrZhh</a></p>&mdash; Mike Kearney📊 (@kearneymw) <a href="https://twitter.com/kearneymw/status/1004107694389780486?ref_src=twsrc%5Etfw">June 5, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -104,28 +121,33 @@ Currently: Week 10
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-Week 10: data
+Week 10
 ========================================================
 
 ## Data
-![Biketown](tidytuesday-figure/data_biketown.png)
+![](tidytuesday-figure/data_biketown.png)
+
+Week 10
+========================================================
 
 ## Article
-![Biketown](tidytuesday-figure/biketown.png)
+![](tidytuesday-figure/biketown.png)
 
 
-Week 10: work by community
+Week 10
 ========================================================
+
+## Work by community
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It&#39;s Tuesday again! For this week&#39;s <a href="https://twitter.com/hashtag/TidyTuesday?src=hash&amp;ref_src=twsrc%5Etfw">#TidyTuesday</a> Biketown dataset, I looked at round trips (start hub = end hub) plotted on a map, and boxplots of distance by trip type. Code can be found here: <a href="https://t.co/JVob01BLv8">https://t.co/JVob01BLv8</a>. <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/r4ds?src=hash&amp;ref_src=twsrc%5Etfw">#r4ds</a> <a href="https://t.co/Vn1ohVmj57">pic.twitter.com/Vn1ohVmj57</a></p>&mdash; veerlevanson (@veerlevanson) <a href="https://twitter.com/veerlevanson/status/1004113584857780224?ref_src=twsrc%5Etfw">June 5, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-Hands-on
+
+Tands-on
 ========================================================
 
-Article: https://www.biketownpdx.com/system-data
-|
+
  Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
 |
@@ -135,8 +157,10 @@ Article: https://www.biketownpdx.com/system-data
 
 
 
-Hands-on R-Code
+Hands-on
 ========================================================
+
+## R-Code
 
 Download R-script (that downloads data) [here](https://rawgit.com/rladies/meetup-presentations_lausanne/master/20180607_thundeR/3_tidytuesday/get-started-tidytuesday.R).
 
@@ -144,7 +168,10 @@ Download R-script (that downloads data) [here](https://rawgit.com/rladies/meetup
 library(tidyverse)
 ```
 
-# week 9: Comic characters
+Hands-on
+========================================================
+
+## Week 9: Comic characters
 
 ```{r week9}
 ## from https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/
@@ -153,7 +180,10 @@ dat.comic <- read_csv("tidytuesday-data/week9_comic_characters.csv")
 
 ```
 
-## week 10: Biketown Bikeshare
+Hands-on
+========================================================
+
+## Week 10: Biketown Bikeshare
 
 ```{r week10}
 ## from https://github.com/rfordatascience/tidytuesday/blob/master/data/week10_biketown.zip
@@ -162,15 +192,5 @@ dat.bike <- read_csv("tidytuesday-data/week10_biketown.csv")
 ```
 
 
-Slide
-========================================================
-
-```{r}
-
-ggplot(data = dat.comic %>% filter(sex %in% c("Female","Male"))) + geom_bar(aes(publisher, fill = align), position="fill") + facet_wrap(~sex)
-
-###
-dat <- dat %>% mutate(sex = str_remove(sex, " Characters"))
 
 
-```
