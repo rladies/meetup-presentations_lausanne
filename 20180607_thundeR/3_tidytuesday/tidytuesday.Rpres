@@ -159,12 +159,11 @@ Week 10
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-
-Hnds-on
+Hands-on
 ========================================================
 
 
- Week | Date | Data | Source | Article
+| Week | Date | Data | Source | Article
 | :---: | :---: | :--- | :--- | :---|
 |
 | 9 | 2018-05-29 | [Comic book characters](https://github.com/rfordatascience/tidytuesday/blob/master/data/week9_comic_characters.csv) | [FiveThirtyEight package](https://github.com/rudeboybert/fivethirtyeight) | [FiveThirtyEight.com](https://fivethirtyeight.com/features/women-in-comic-books/)|
