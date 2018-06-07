@@ -34,7 +34,6 @@ dat.comic <- read_csv("data/week9_comic_characters.csv")
 ## -------------
 
 ## article: https://www.biketownpdx.com/system-data
-## download data from https://github.com/rfordatascience/tidytuesday/blob/master/data/week10_biketown.zip
 dat.bike <- read_csv("data/week10_biketown.csv")
 
 
