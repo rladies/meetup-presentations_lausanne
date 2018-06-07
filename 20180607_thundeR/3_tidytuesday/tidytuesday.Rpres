@@ -81,17 +81,19 @@ How does #TidyTuesday work?
 How to participate in TidyTuesday
 ========================================================
 
-![](tidytuesday-figure/participate.png)
-
+```{r plot0, echo=FALSE, fig.cap="", out.height = '80%'}
+knitr::include_graphics("tidytuesday-figure/participate.png")
+```
 
 Datasets: the gold mine!
 ========================================================
 
 A variety of types of data!
 
-![](tidytuesday-figure/previous-tidytuesdays.png)
 
-
+```{r plot1, echo=FALSE, fig.cap="", out.height = '80%'}
+knitr::include_graphics("tidytuesday-figure/previous-tidytuesdays.png")
+```
 
 
 The principle: Data + Publication  
@@ -141,14 +143,19 @@ Week 10
 ========================================================
 
 ## Data
-![](tidytuesday-figure/data_biketown.png)
+
+```{r plot2, echo=FALSE, fig.cap="", out.height = '18%'}
+knitr::include_graphics("tidytuesday-figure/data_biketown.png")
+```
 
 Week 10
 ========================================================
 
 ## Article
-![](tidytuesday-figure/biketown.png)
 
+```{r plot3, echo=FALSE, fig.cap="", out.height = '18%'}
+knitr::include_graphics("tidytuesday-figure/biketown.png")
+```
 
 Week 10
 ========================================================
