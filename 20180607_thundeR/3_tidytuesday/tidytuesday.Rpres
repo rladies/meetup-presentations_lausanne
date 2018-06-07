@@ -1,4 +1,4 @@
-#TidyTuesday
+#TidyTuesday -> #TidyThursday
 ========================================================
 author: Andrea + Sina
 date: June 7 2018
@@ -37,11 +37,10 @@ R4DS = R for Data Science Online Learning Community
 Goal: *creating a supportive and responsive online space for learners and mentors to gather and work through the R for Data Science text*
 
 
-- R4DS community: http://www.rfordatasci.com/
+- R4DS community: http://www.rfordatasci.com/ initiated by [Jesse Maegan](https://www.jessemaegan.com/) ([@kierisi](https://twitter.com/kierisi) on twitter)
 - R4DS is a book: http://r4ds.had.co.nz/ (free online book)
-- people behind R4DS community are: Jesse Megan and 
-- Twitter + Slack
-- TidyTuesday is part of this initiative
+- R4DS community works through [Blog](http://www.rfordatasci.com/blog/) + Twitter + Slack
+- `r emo::ji("arrow_right")` [TidyTuesday](https://github.com/rfordatascience/tidytuesday) is part of this initiative
 
 
 Tidyverse ecosystem
@@ -50,32 +49,45 @@ Tidyverse ecosystem
 ```{r eval=FALSE, echo=TRUE, message=FALSE, warning=FALSE, results=FALSE}
 
 library(tidyverse)
-
+## Base functions have analogous functions in the tidyverse. 
 ```
 
 ![](tidytuesday-figure/tidyverse.png)
 
-https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/
-
-Base functions have analogous functions in the tidyverse. 
 
 
 What is #TidyTuesday?
 ========================================================
 
-*A weekly visualisation project: https://github.com/rfordatascience/tidytuesday*.
 
-- is a hashtag used on twitter
-- twitter > important
-- addresses the need of learning the tidyverse ecosystem 
-- small'ish datasets + some kind of template (articles)
-- started in April 2018
-- data released on Monday, work on **Tuesday**, publish results + code on twitter. 
+*A weekly data wrangling & visualisation project* 
+
+`r emo::ji("arrow_right")` [Github repo](https://github.com/rfordatascience/tidytuesday)
+
+`r emo::ji("arrow_right")` [Details](https://thomasmock.netlify.com/post/tidytuesday-a-weekly-social-data-project-in-r/)
+
+- Founded by [Jesse Maegan](https://www.jessemaegan.com/) and [Thomas Mock](http://thomasmock.netlify.com/)
+- Started in April 2018
+- addresses the need of learning the tidyverse ecosystem by separating the technical and the interpretation part of DS.
+- Tamed, bot not *tidy* datasets along with some kind of template (articles)
+
+How does #TidyTuesday work?
+========================================================
+
+- Data is released on **Monday**
+- Wrangle & visualise on **Tuesday**
+- publish results + code on twitter (#TidyTuesday)
+
+How to participate in TidyTuesday
+========================================================
+
+![](tidytuesday-figure/participate.png)
+
 
 Datasets: the gold mine!
 ========================================================
 
-Variety of types of data
+A variety of types of data!
 
 ![](tidytuesday-figure/previous-tidytuesdays.png)
 
@@ -98,8 +110,12 @@ The principle: Data + Publication
 What are the possibilities?
 ========================================================
 
-- This combination of data + published figures allows you to explore tidyverse on different levels: reproduce something or create something new
-- having a community: learn from others
+- **Playing** with data: data wrangling (tidying) + visualisation. Practicing the core skillset that helps us to do DS.
+- This combination of data + published figures allows you to explore tidyverse on **different levels**: reproduce something or create something new
+- having a **community**: learn from others
+- addresses the lack of **new data at work** (without having to think about implications).
+- It is like homework that you won't get checked on `r emo::ji("sunglasses")`.
+
 
 
 Example of creating something new!
