@@ -68,7 +68,7 @@ What is #TidyTuesday?
 
 - Founded by [Jesse Maegan](https://www.jessemaegan.com/) and [Thomas Mock](http://thomasmock.netlify.com/)
 - Started in April 2018
-- addresses the need of learning the tidyverse ecosystem by separating the technical and the interpretation part of DS.
+- Addresses the need of learning the tidyverse ecosystem by separating the technical and the interpretation part of DS.
 - Tamed, bot not *tidy* datasets along with some kind of template (articles)
 
 How does #TidyTuesday work?
@@ -113,9 +113,9 @@ What are the possibilities?
 ========================================================
 
 - **Playing** with data: data wrangling (tidying) + visualisation. Practicing the core skillset that helps us to do DS.
-- This combination of data + published figures allows you to explore tidyverse on **different levels**: reproduce something or create something new
-- having a **community**: learn from others
-- addresses the lack of **new data at work** (without having to think about implications).
+- This combination of data + published figures allow you to explore tidyverse on **different levels**: reproduce something or create something new
+- Having a **community**: learn from others
+- Addresses the lack of **new data at work** (without having to think about implications).
 - It is like homework that you won't get checked on `r emo::ji("sunglasses")`.
 
 
@@ -144,7 +144,7 @@ Week 10
 
 ## Data
 
-```{r plot2, echo=FALSE, fig.cap="", out.height = '18%'}
+```{r plot2, echo=FALSE, fig.cap="", out.height = '80%'}
 knitr::include_graphics("tidytuesday-figure/data_biketown.png")
 ```
 
@@ -153,7 +153,7 @@ Week 10
 
 ## Article
 
-```{r plot3, echo=FALSE, fig.cap="", out.height = '18%'}
+```{r plot3, echo=FALSE, fig.cap="", out.height = '80%'}
 knitr::include_graphics("tidytuesday-figure/biketown.png")
 ```
 
