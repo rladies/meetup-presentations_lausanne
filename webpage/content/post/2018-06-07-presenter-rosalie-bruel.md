@@ -1,7 +1,7 @@
 ---
-title: 'Interview with Rosalie Burel (presenter #6, twitter thread!)'
+title: 'Interview with Rosalie Burel'
 author: ''
-date: '2018-06-07'
+date: '2018-06-11'
 slug: presenter-6-rosalie-bruel
 categories: 
   - interview
@@ -20,7 +20,7 @@ Rosalie Bruel [<i class="fab fa-twitter"></i>](https://twitter.com/rosaliebruel)
 
 As one of our first supporters, she missed our lightening talk session in June as she will soon head to Vermont. 
 
-Luckily for us, she proposed to do a [Twitter thread](twitter thread) instead on her work in environmental research. For French speakers: she has also did a ReCur week for [@laBioauLabo](https://twitter.com/laBioauLabo/status/980716083685584896).
+Luckily for us, she proposed to do a [twitter thread](https://twitter.com/rladieslausanne) instead on her work in environmental research. For French speakers: she has also did a ReCur week for [@laBioauLabo](https://twitter.com/laBioauLabo/status/980716083685584896).
 
 <blockquote class="twitter-tweet" data-lang="de"><p lang="fr" dir="ltr">Cette semaine j&#39;anime le compte de <a href="https://twitter.com/laBioauLabo?ref_src=twsrc%5Etfw">@laBioauLabo</a>. Abonnez-vous si vous souhaitez suivre mes tweets (en français) 👀. J&#39;ajouterai tous les jours dans la thread de discussion les débuts de &quot;thématiques&quot;. <a href="https://t.co/0oD1VpN5j3">https://t.co/0oD1VpN5j3</a></p>&mdash; Rosalie Bruel (@RosalieBruel) <a href="https://twitter.com/RosalieBruel/status/980906762651033600?ref_src=twsrc%5Etfw">2. April 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -60,7 +60,7 @@ It also straightforward  to share your scripts and methods with everyone.
 
 #### RLL: What resources do you use when you get stuck? 
 <u>RB</u>: I always google first, and when I have the time to read help from several sources, I go to Stackoverflow.
-I do my research in English, but [[ere](https://statistique-et-logiciel-r.com) is a blog resource in French by another R-Ladies member, Claire Della Vedova. 
+I do my research in English, but [here](https://statistique-et-logiciel-r.com) is a blog resource in French by another R-Ladies member, Claire Della Vedova. 
 
 #### RLL: What do you aspire to learn in R?
 <u>RB</u>: I want to learn how to use `purrr` for iterations instead of loops. I started working on very large datasets and I’m wasting a lot of computation time by using ‘for’ loops.
