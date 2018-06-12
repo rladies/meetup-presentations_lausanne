@@ -18,7 +18,7 @@ draft: true
 
 
 
-At our very first meetup, Leonore Wigger [<i class="far fa-address-card"></i>](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1113974&LanCode=37) gave a short presentation on how to combine multiple ggplot plots into one page. 
+At our very first meetup, Leonore Wigger [<i class="far fa-address-card"></i>](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1113974&LanCode=37) gave a short presentation on how to arrange multiple ggplot plots onto multipage PDFs.
 
 
 
