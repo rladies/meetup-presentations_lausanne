@@ -14,3 +14,8 @@ Maintaining the webpage requires two folders:
 ## Categories and tags
 categories: ["blogpost"] "news", "interview", "meetup"
 tags: ["community"] "meetup", ... 
+
+
+## Add cookiebot to index.html.
+
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="be330002-ebaf-404f-a52a-b89c149a6299" type="text/javascript" async></script>
