@@ -39,7 +39,7 @@ At our very first meetup, Leonore Wigger [<i class="far fa-address-card"></i>](h
 <u>LW</u>: I use knitr and Rmarkdown, but it's not completely automated. I have standard reports and from that I generate a final report by removing or adding blocks to tailor the report. 
 
 #### RLL: Where and when did you learn R?
-<u>LW</u>: My very first contact with R was during my Master thesis, but I really only used it to produce some boxplots. And then after that, I learned R on the job here. So I started her 7 years ago with my extremely limited knowledge and my boss gave me his examples and his collection of functions to get started.
+<u>LW</u>: My very first contact with R was during my Master thesis, but I really only used it to produce some boxplots. And then after that, I learned R on the job here. So I started R 7 years ago with my extremely limited knowledge and my boss gave me his examples and his collection of functions to get started.
 
 #### RLL: Did you find it easy to learn R on the job?
 <u>LW</u>: It was ok. It was not the first programming language that I learned. And the analyses were all very standardized. So actually that type of work was good to slowly get into R. For a long time, my knowledge in R stayed pretty limited, because I never really had time to learn more complex things. And it's only during the last one or two years that I really had the opportunity to venture a little bit further and go and look for things that really expand my R vocabulary a bit.
@@ -60,7 +60,7 @@ One of them is the package broom and out of this one I especially like the funct
 
 But I think there are a few more things to say. Sometimes I ask my coworkers that I see them doing. And I think this is super relevant and important. And it goes both ways – they ask me too. 
 
-It happened about twice that I happened to post a question to a forum. And these questions were about the usage and behavior of very specific functions in very specific packages. And each time I was hoping very much that the author of the package would respond to me and in both cases they did. They gave me the perfect answer that I was looking for. This was very cool. 
+It happened about twice that I posted a question to a forum. And these questions were about the usage and behavior of very specific functions in very specific packages. And each time I was hoping very much that the author of the package would respond to me and in both cases they did. They gave me the perfect answer that I was looking for. This was very cool. 
 
 A few times I have also used books. One time I was actually using a package for a bigger project, and after a while I bought the book specific for this package.
 
@@ -70,7 +70,9 @@ A few times I have also used books. One time I was actually using a package for 
 So the next thing I am planning to get more into generalized linear mixed models. The learning process is always two fold. On the one side it's really just learning about statistical concepts and methods, but then on the other hand it's also about to program the analysis in R. 
 
 #### RLL: What are tools that keep your day smooth?
-<u>LW</u>: For programming in R, I use Rstudio. I write most of my code in R markdown documents. Sometimes I make reports with knitr out of them, but not always. I also use Rstudio’s integrated access to git. I much appreciate how simple it is to use. I work on a windows machine and would also like to say a word about a tool that has nothing to do with R. It is MobaXterm. This is a terminal for windows. The two functionalities that I use: It gives me many linux commands on my Windows machine and it allows me to connect to remote machines via SSH.
+<u>LW</u>: For programming in R, I use Rstudio. I write most of my code in R markdown documents. Sometimes I make reports with knitr out of them, but not always. I also use Rstudio’s integrated access to git. I much appreciate how simple it is to use. 
+
+I work on a windows machine and would also like to say a word about a tool that has nothing to do with R. It is MobaXterm. This is a terminal for windows. The two functionalities that I use: It gives me many linux commands on my Windows machine and it allows me to connect to remote machines via SSH.
 
 
 #### RLL: What motivated you to give a talk at R-Ladies Lausanne?
