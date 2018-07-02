@@ -22,6 +22,7 @@ blogdown::hugo_build()
 ## 3) go to a terminal
 ## ---------------------------
 
+path <- getwd()
 comment <- "'removed disqus and google'"
 
 ## b) commit changes of webpage folder
@@ -35,5 +36,7 @@ setwd("/Users/admin/Documents/Projects/rladies/rladieslausanne.github.io/")
 system("git add -f *")
 system(paste0("git commit -a -m ", comment))
 system("git push")
+
+setwd(path)
 
 
