@@ -23,7 +23,7 @@ blogdown::hugo_build()
 ## ---------------------------
 
 path <- getwd()
-comment <- "'implemented leonore and lizas interview (both drafts)'"
+comment <- "'adding rosalies interview'"
 
 ## b) commit changes of webpage folder
 ## add files system("git add ...")

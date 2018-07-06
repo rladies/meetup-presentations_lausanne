@@ -15,7 +15,7 @@ tags:
 > *The reason I presented at R-Ladies, is, that when I had done my first shiny app, I felt it was really amazing and I really wanted to share my experience of doing that, because it was quite easy.*
 
 
-Elisabeth Dahlqwist [<i class="fab fa-twitter"></i>](https://twitter.com/Elistif)[<i class="far fa-address-card"></i>](https://ki.se/en/people/elisda) gave an introduction to **Shiny** at our second R-Ladies Lausanne meetup. 
+**Elisabeth Dahlqwist** [<i class="fab fa-twitter"></i>](https://twitter.com/Elistif)[<i class="far fa-address-card"></i>](https://ki.se/en/people/elisda) gave an introduction to **Shiny** at our **second** R-Ladies Lausanne meetup. 
 
 
 

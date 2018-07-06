@@ -20,7 +20,7 @@ draft: true
 
 
 
-In past April, Elizaveta Semenova  [<i class="fab fa-twitter"></i>](https://twitter.com/liza_p_semenova)[<i class="far fa-address-card"></i>](https://www.swisstph.ch/en/staff/profile/people/elizaveta-semenova/) gave an introduction to Bayesian inference in R, using [Stan](http://mc-stan.org/) at our third meetup. In the meantime we had the chance to chat with her about her background and current work. 
+In past April, **Elizaveta Semenova**  [<i class="fab fa-twitter"></i>](https://twitter.com/liza_p_semenova)[<i class="far fa-address-card"></i>](https://www.swisstph.ch/en/staff/profile/people/elizaveta-semenova/) gave an introduction to Bayesian inference in R, using [Stan](http://mc-stan.org/) at our **third meetup**. In the meantime we had the chance to chat with her about her background and current work. 
 
 
 
