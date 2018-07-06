@@ -23,7 +23,7 @@ blogdown::hugo_build()
 ## ---------------------------
 
 path <- getwd()
-comment <- "'removed disqus and google'"
+comment <- "'implemented leonore and lizas interview (both drafts)'"
 
 ## b) commit changes of webpage folder
 ## add files system("git add ...")
