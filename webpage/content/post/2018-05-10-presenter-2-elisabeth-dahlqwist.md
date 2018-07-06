@@ -1,5 +1,5 @@
 ---
-title: 'Interview with Elisabeth Dahlqwist (presenter #2)'
+title: 'Interview with Elisabeth Dahlqwist'
 author: ''
 date: '2018-05-10'
 slug: presenter-2-elisabeth-dahlqwist
