@@ -10,7 +10,6 @@ tags:
   - bayesian
   - biostatistics
   - interview
-draft: true
 ---
 
 
