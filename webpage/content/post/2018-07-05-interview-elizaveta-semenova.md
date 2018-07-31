@@ -1,7 +1,7 @@
 ---
 title: Interview with Elizaveta Semenova
 author: ''
-date: '2018-07-05'
+date: '2018-07-31'
 slug: interview-elizaveta-semenova
 categories: 
   - interview
@@ -16,39 +16,44 @@ draft: true
 
 
 
-> *I think there is a lot of power in it in Bayesian statistics. The problem is the heavy entrance threshold. So I am always very happy to talk about the benefits of Bayesian statistics and show how easy and simple a model can look like.*
+
+> *I think there is a lot of power in the Bayesian approach. The problem is the high entrance threshold due to the computational issues that it poses. So I am always very happy to talk about the benefits of Bayesian statistics and show how simple a model can look like.*
 
 
 
-In past April, **Elizaveta Semenova**  [<i class="fab fa-twitter"></i>](https://twitter.com/liza_p_semenova)[<i class="far fa-address-card"></i>](https://www.swisstph.ch/en/staff/profile/people/elizaveta-semenova/) gave an introduction to Bayesian inference in R, using [Stan](http://mc-stan.org/) at our **third meetup**. In the meantime we had the chance to chat with her about her background and current work. 
+In past April, Elizaveta Semenova  [<i class="fab fa-twitter"></i>](https://twitter.com/liza_p_semenova)[<i class="far fa-address-card"></i>](https://www.swisstph.ch/en/staff/profile/people/elizaveta-semenova/) gave an introduction to Bayesian inference in R, using [Stan](http://mc-stan.org/) at our third meetup. In the meantime we had the chance to chat with her about her background and current work. 
 
 
 
 <a href="https://github.com/rladies/meetup-presentations_lausanne/tree/master/20180413_bayesian/elizavetasemenova-bayesian-stan"><img src="/files/img_slides.png" alt="Slides" height="70" /></a>
 
 
-<img src="files/2018-04-13-bayesian/20180413_123143.jpg" alt="-" height="300" />
+
+ <figure>
+  <img src="/files/2018-04-13-bayesian/Liza1.png" alt="Elizaveta" height="300" />
+  <figcaption>*Elizaveta speaking at the <a href="https://www.appliedmldays.com/workshop_sessions/machine-learning-for-news-theory-applications-and-visualisation-in-python.1">AMLD 2018</a>.*</figcaption>
+</figure> 
+
+
 
 
 #### R-Ladies Lausanne: Can you tell us about the work that you do?
 
 <u>Elizaveta Semenova</u>: Currently I am doing a PhD in Epidemiology and Biostatistics at the [Swiss Tropical Institute of Public Health]( https://www.swisstph.ch/en/) where I develop novel models for the analysis of surveillance data. 
-The disease that I look at specifically is malaria *at this stage of ???*. Historically, there have been cases when malaria came to pretty low levels but once efforts were reduced those countries have been in resurgence. The question is: What do you still need to do to eradicate it? This is not a trivial question. And so my task is to provide some solid scientific answers to that based on statistical modelling. 
+To be more precise, I study malaria at elimination stage. Historically, there have been cases when malaria came to pretty low levels in some countries but once the efforts were reduced those countries saw resurgence. The question is: what does one need to do, when malaria reaches the elimination stage, to eradicate it? My task is to provide a scientific answer to that, based on statistical modelling. 
 
 #### RLL: From what countries do you get data?
 
-<u>ES</u>: I specifically work with data from Swaziland. This is very special country in terms of malaria. The highest burden of malaria worldwide is in sub-Saharan Africa.
-I think 90% or 94% of cases as malaria are all in sub-Saharan Africa. But in sub-Saharan Africa there are countries with very different intensity levels. So some countries have very high malaria burden and incidence, while four countries are approaching elimination. And Swaziland is one of them. It is said to be the closest to elimination in sub-Saharan Africa. 
+<u>ES</u>: I, specifically, work with the data from Swaziland. This is a special country in the context of malaria. The highest burden of malaria worldwide is in sub-Saharan Africa. While some of the countries there have very high malaria burden and incidence, there are four countries, approaching elimination. And Swaziland is one of them. It is said to be the closest to elimination in the region.
 
-What is also very special, is that they have established a surveillance system capturing precise coordinates of each case. Meaning, for each malaria case they record the GPS coordinates of the household and the day when it occurred. Looking from our western perception at it, we may say that we have a lot of data of that type but in terms of malaria this is very unique. 
-And that's the first country in sub-Saharan Africa where we can get access to this type of data. That is the first time that you can actually analyse this very precise spatial temporal distribution of cases and gain more understanding of that process.
+What is also very special, is that they have established a surveillance system capturing precise coordinates of each case. Meaning, for each malaria case they record the GPS coordinates of the household and the day when it occurred. From our western point of view, there may seem to be nothing special in this kind of data, but in terms of malaria this is very unique.  And that's the first country in sub-Saharan Africa where we can get access to this type of data. That is the first time that you can actually analyse this very precise spatio-temporal distribution of cases and gain more understanding of the process.
 
 
 #### RLL: At R-Ladies Lausanne you gave a presentation on Bayesian modelling and Stan. How does this play in to your work?
 
-<u>ES</u>: Stan is my absolute favourite tool for Bayesian inference. All the models I've built during my PhD are centred on Bayesian inference and Bayesian statistics. I've explored a lot of different tools for Bayesian inference with more readily available R packages or other historically popular software. 
+<u>ES</u>: Stan is my absolute favourite tool for Bayesian inference. All the models, which will end up being part of my PhD, are formulated in the Bayesian framework. I have explored various tools for Bayesian inference, such as more readily available R packages and popular software. 
 
-But then at the end, once I discovered Stan, I realize that it works best for me. It converges for some very specific likelihoods, which was problematic for the software that I tried before. And with those other software packages I would have never written the main paper that I am writing now. Since Stan has this very peculiar algorithm behind (Hamiltonian Monte Carlo), it is very efficient and very precise in the way it samples. So Stan is something that I think saved my PhD. 
+But then, at the end, once I discovered Stan, I realised that it works best for me. It converges well for some very specific likelihoods, which was problematic in the software that I tried before. And using that other software I would have never be able to write my main PhD paper, which I am finishing now. Stan has this very peculiar sampling algorithm behind it (Hamiltonian Monte Carlo), which makes it very efficient. So Stan is something that, I think, has rescued my PhD. 
 
 #### RLL: What tools to you use at work?
 
@@ -61,7 +66,7 @@ But then at the end, once I discovered Stan, I realize that it works best for me
 
 #### RLL: What do you appreciate most in R?
 
-<u>ES</u>: I think the simplicity and how easy it is to start. If you use R-Studio as the environment, it is just so simple. If you in general understand how programming works, you do not need to do a lot of installations or set up environments.
+<u>ES</u>: I think the simplicity and how easy it is to start. If you use R-Studio as the environment, it is just so simple. If you understand in general how programming works, you do not need to do a lot of installations or set up environments.
 
 You do not need to think ''oh how do I run this command now from terminal?''. And terminals of course terrify beginners. R has a much lower entrance threshold compared to any other tool that is used in statistics. You can start from day one already writing functional programs.
 
@@ -90,4 +95,3 @@ In the end, it is not rocket science to make Bayesian inference.
 
 **Technical note:**
 *This interview was recorded by Sina on July 5 and then transcribed. Some text was changed for clarification.*
-

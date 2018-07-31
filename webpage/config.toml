@@ -1,7 +1,8 @@
-baseurl = "/"
+dbaseurl = "/"
 languageCode = "en-us"
 title = "R-Ladies Lausanne"
 theme = "hugo-xmin"
+canonifyURLs = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "-draft$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
