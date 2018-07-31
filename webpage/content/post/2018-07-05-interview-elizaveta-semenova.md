@@ -23,11 +23,9 @@ draft: true
 
 In past April, Elizaveta Semenova  [<i class="fab fa-twitter"></i>](https://twitter.com/liza_p_semenova)[<i class="far fa-address-card"></i>](https://www.swisstph.ch/en/staff/profile/people/elizaveta-semenova/) gave an introduction to Bayesian inference in R, using [Stan](http://mc-stan.org/) at our third meetup. In the meantime we had the chance to chat with her about her background and current work. 
 
-<a href="https://htmlpreview.github.io/?https://github.com/rladies/meetup-presentations_lausanne/master/20180413_bayesian/elizavetasemenova-bayesian-stan/presentationHTML.html#/"><img src="/files/img_slides.png" alt="Slides" height="70" rel="noopener noreferrer" target="_blank"/></a>
+<a href="https://htmlpreview.github.io/?https://github.com/rladies/meetup-presentations_lausanne/master/20180413_bayesian/elizavetasemenova-bayesian-stan/presentationHTML.html#/" rel="noopener noreferrer" target="_blank"><img src="/files/img_slides.png" alt="Slides" height="70" /></a>
 
 <a href="https://github.com/rladies/meetup-presentations_lausanne/tree/master/20180413_bayesian/elizavetasemenova-bayesian-stan"><img src="/files/img_material.png" alt="material" height="70" /></a> 
-
-
 
  <figure>
   <img src="/files/2018-04-13-bayesian/Liza1.png" alt="Elizaveta" height="300" />
