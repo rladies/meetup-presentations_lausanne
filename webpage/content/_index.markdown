@@ -8,7 +8,7 @@ title: Home
 Find out about upcoming (and past) [events](/events/).
 
 ## News / Blogposts / Interviews
-Read monthly posted [news](/categories/news/) or [interviews](/categories/interview/) of our [speakers](/community/#speakers).<!-- and contributed [blogposts](/categories/blogpost/).-->
+Read (monthly) posted [news](/categories/news/) or [interviews](/categories/interview/) of our [speakers](/community/#speakers).<!-- and contributed [blogposts](/categories/blogpost/).-->
 
 
 ## R-Ladies
