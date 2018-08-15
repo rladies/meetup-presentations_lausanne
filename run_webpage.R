@@ -23,7 +23,7 @@ blogdown::hugo_build()
 ## ---------------------------
 
 path <- getwd()
-comment <- "'worldwide > global'"
+comment <- "'trying to fix the rss feed issue'"
 
 ## b) commit changes of webpage folder
 ## add files system("git add ...")
