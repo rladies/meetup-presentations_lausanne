@@ -17,11 +17,7 @@ We also encourage you to **bring along your R problems** 30 min before the meetu
 
 ## Upcoming Events
 
-Our next event is on **June 7 2018**. 
-
-- Short 10-20 minutes talks on mixed topics (aka `ThundeR` talks!) 
-- Still looking for speakers, [email us](emailto:lausanne@rladies.org) if you are interested!
-- [Registration](https://www.meetup.com/rladies-lausanne/events/250462129/)
+Our next event is in **October 2018**. We keep you posted!
 
 <!--- ### Autumn 2018 We are thinking about a Hackathon-->
 
@@ -31,3 +27,5 @@ Our next event is on **June 7 2018**.
 | 1-Feb-2018  | 6 pm  | Meet & Greet & 5min-talk (by Leonore Wigger from SIB)  | Kickoff  | [@Anthropole](https://goo.gl/maps/vpsdsAj4isT2)   | [Intro to R-Ladies](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-kickoff-presentation.pdf) + [ggarrange](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180201_kickoff/2018-02-01-lightning_multipage_pdf_lw.pdf) |
 | 14-March-2018  | 6 pm  | Shiny by [Elisabeth Dahlqwist](https://ki.se/en/people/elisda) | Tutorial  | [UNIL-Genopode Auditorium A](https://goo.gl/maps/Fo8rctLTWgm) | [Presentation](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_presentation.pdf) + [Examples](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_examples.zip) |
 | 13-April-2018 | noon | [R and Bayesian Statistics](https://www.meetup.com/rladies-lausanne/events/248694983/)  by [Elizaveta Semenova](https://elizavetasemenova.github.io/blog/) (TPH Basel)| Tutorial  |  [Swisscom Digital Lab @ EPFL](https://goo.gl/maps/FgR9FPv33LA2) | [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20180413_bayesian/elizavetasemenova-bayesian-stan)   |
+| 7-June-2018 | 6.30 pm | [ThundeR talks](https://www.meetup.com/rladies-lausanne/events/250462129/) by Liza Darrous and Susan Kamal| Short talks on mixed topics |  [ImpactHub Lausanne](http://lausanne.impacthub.net/) | [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20180607_thundeR)   |
+
