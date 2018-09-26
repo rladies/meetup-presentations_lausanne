@@ -17,7 +17,7 @@ We also encourage you to **bring along your R problems** 30 min before the meetu
 
 ## Upcoming Events
 
-Our next event is in **October 2018**. We keep you posted!
+Our next event is on **17 October 2018**. Details & registration [here](https://www.meetup.com/rladies-lausanne/events/254756623/).
 
 <!--- ### Autumn 2018 We are thinking about a Hackathon-->
 
@@ -28,4 +28,4 @@ Our next event is in **October 2018**. We keep you posted!
 | 14-March-2018  | 6 pm  | Shiny by [Elisabeth Dahlqwist](https://ki.se/en/people/elisda) | Tutorial  | [UNIL-Genopode Auditorium A](https://goo.gl/maps/Fo8rctLTWgm) | [Presentation](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_presentation.pdf) + [Examples](https://github.com/rladies/meetup-presentations_lausanne/blob/master/20180314_shiny/shiny_examples.zip) |
 | 13-April-2018 | noon | [R and Bayesian Statistics](https://www.meetup.com/rladies-lausanne/events/248694983/)  by [Elizaveta Semenova](https://elizavetasemenova.github.io/blog/) (TPH Basel)| Tutorial  |  [Swisscom Digital Lab @ EPFL](https://goo.gl/maps/FgR9FPv33LA2) | [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20180413_bayesian/elizavetasemenova-bayesian-stan)   |
 | 7-June-2018 | 6.30 pm | [ThundeR talks](https://www.meetup.com/rladies-lausanne/events/250462129/) by Liza Darrous and Susan Kamal| Short talks on mixed topics |  [ImpactHub Lausanne](http://lausanne.impacthub.net/) | [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20180607_thundeR)   |
-
+| 17-Oct-2018 | 6.00 pm | [Creating reproducible analyses and reports with R Markdown](https://www.meetup.com/rladies-lausanne/events/254756623/) by [Claudia Kasper](https://twitter.com/claudia_kasper)| Tutorial |  [Swisscom Digital Lab @ EPFL](https://goo.gl/maps/FgR9FPv33LA2) |   |
