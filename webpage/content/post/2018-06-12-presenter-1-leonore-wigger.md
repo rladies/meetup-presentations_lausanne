@@ -8,6 +8,7 @@ categories:
 tags:
   - bioinformatics
   - ggplot2
+  - interview
 draft: false
 ---
 

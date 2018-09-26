@@ -8,7 +8,6 @@ categories:
 tags:
   - community
   - news
-  - interview
 ---
 
 Since our [last newsletter in May](https://rladieslausanne.github.io/post/2018/05/10/news-may-2018/) a few things have happened: 
