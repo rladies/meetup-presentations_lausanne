@@ -1,0 +1,37 @@
+SUBJECT: Next R-Ladies Lausanne meetup 17 Oct // Creating reproducible analyses and reports with R Markdown, with Claudia Kasper
+
+
+We are happy to announce our 5th R-Ladies Lausanne Meetup. 
+
+***********************************************************************
+ Creating reproducible analyses and reports with R Markdown
+***********************************************************************
+
+Presenter: Claudia Kasper (https://twitter.com/claudia_kasper)
+
+Date: October 17 at 6pm
+
+Location: Swisscom Digital Lab on the EPFL campus (https://goo.gl/maps/pKFPK5sem4R2)
+
+Prerequisite:  
++ A laptop with R and RStudio installed.
++ R-package RMarkdown (install.packages('rmarkdown’)) and ggplot2 (install.packages(‘ggplot2’) installed.
++ This is a beginner course. Having used basic commands in R before is sufficient, but no knowledge of markdown, latex or anything similar is required.
+
+Registration is free but mandatory:
+https://www.meetup.com/rladies-lausanne/events/254756623/
+
+We look forward to meeting you!
+ 
+Kind regards, 
+R-Ladies Lausanne
+
+PS: Checkout our interviews with previous speakers: https://rladieslausanne.github.io/tags/interview/
+
+--- 
+
+Talk to us ----------------------------------------------  lausanne@rladies.org
+Check out *upcoming meetups* ------------------ https://www.meetup.com/rladies-lausanne/about/
+Follow us on *twitter* -------------------------------- twitter.com/rladieslausanne
+Check out material from *previous meetups* - https://github.com/rladies/meetup-presentations_lausanne
+
