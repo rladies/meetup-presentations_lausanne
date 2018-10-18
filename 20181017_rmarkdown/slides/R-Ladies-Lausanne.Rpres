@@ -1,0 +1,118 @@
+Creating reproducible analyses and reports with R Markdown
+========================================================
+author: Claudia Kasper
+date: 2018-10-17
+autosize: true
+transition: concave
+font-family: 'Futura'
+
+Overview
+========================================================
+
+- <font size="10">10 min introduction and explanation
+- 20-30 min hands-on tutorial
+- ? min wrap-up and extras</font>
+
+whoami?
+========================================================
+![pig scanning](pigScan.png)
+
+whoami?
+========================================================
+![house mice](mice.png)
+
+whoami?
+========================================================
+![n pulcher](pulcher.png)
+
+Why bothering with yet another package?
+========================================================
+
+<font size="10">I hope today that I can convince you that writing your scripts in R Markdown is worth the trouble</font>
+
+- <font size="10">write reports that are neat (and quick)
+- do the same analysis again with +/- same outcome ('reproducible')
+- keep your complex script tidy
+- etc</font>
+
+How does it look like in the end? - R Markdown document
+========================================================
+
+<BR><BR>
+![n screenshot](screenshot.png)
+
+
+How does it look like in the end? - 1 
+========================================================
+
+<font size="10">Word document/PDF</font>
+
+<BR>![n report](report1.png)
+
+
+How does it look like in the end? - 2 
+========================================================
+
+<font size="10">Word document/PDF</font>
+<BR>![n report](report2.png)
+
+
+What is R Markdown exactly?
+========================================================
+
+<font size="10">R Markdown is based on Markdown, _"an easy-to-read and easy-to-write plain text format, optionally convert it to structurally valid XHTML (or HTML)"_ (John Gruber & Aaron Schwartz). </font>
+
+<font size="10">In RStudio, an integrated development environment for R provides a C++ wrapper function for a markdown variant called sundown. _source:_ [Wikipedia](https://en.wikipedia.org/wiki/Markdown)</font>
+
+What what can you do with it?
+========================================================
+
++ <font size="10">use it as workbook to organize script
++ create reports (.docx, .pdf, .html)
++ create htmls for courses
++ produce presentations like this one
++ make home page (I struggle ...)
++ etc</font>
+
+Some jargon - Pt I
+========================================================
+
+__'chunk':__ a piece of code, always begins with chunk delimiters 
+<span style="color:blue">'''{r}</span> and ends with <span style="color:blue">'''</span>
+ (backticks, NOT the single quote key!)
++ shortcut "alt + cmd + I" (mac) or "Alt + Ctrl + I" (windows)
+
+__'parameters':__ specify how output should look like (e.g. whether to include the input and output in the final document, suppression of warnings etc)
+
+
+Some jargon - Pt II
+========================================================
+
+__'inline code':__ code can be displayed in code chunks but also within the markdown text parts; delimiters: single 'accent grave' (blablabla <span style="color:blue">'r code'</span> blablabla). This helps to produce reproducible research by having results together with data and code needed to produce them. _"Thus, your report should never explicitly include numbers that are derived from the data. Don’t write “There are 168 individuals.” Rather, insert a bit of code that, when evaluated, gives the number of individuals."_ _source:_ [knitr in a nutshell](https://kbroman.org/knitr_knutshell/pages/Rmarkdown.html)
+
+Some jargon - Pt III
+========================================================
+
+__'knit':__ this is what you do in order to render the final document; the document type can be specified in the file header (between 2x - - -;  output: html/word/pdf_document) or when opening the r markdown file or even in the end by clicking the little arrow next to the 'knit' button. The progress of the rendering (or its abort, errors, warnings, etc) can be seen on the lower left panel in RStudio (R Markdown tab).
+
+It is called _knit_ because it is done by the _knitr_ package by Yihui Xie [knitr](https://yihui.name/knitr/).
+
+Tutorial
+========================================================
+
+a) in order to take out the most of R Markdown for yourself it would be ideal to work on your own code and data
+
+b) if you don't have code and/or data at the moment, there are plenty of example data in R (e.g. 'car' or 'iris')
+
+_a) in R Studio, open your R workbook that you'd like to transfer into a R Markdown document_
+
+_a) + b) in R Studio, open an empty R Markdown document_
+
+
+Extras
+========================================================
+
++ <font size="10">slide shows like this one (.Rpres)</font>
++ <font size="10">funny animations ([Emy Tanaka](https://github.com/emitanaka))</font>
++ <font size="10">LaTeX equations & math using [MathJax](https://www.mathjax.org)</font>
++ <font size="10">home page with [blogdown](https://bookdown.org/yihui/blogdown/) & [Hugo](https://gohugo.io)</font>

@@ -1,0 +1,116 @@
+---
+title: "Tutorial RMarkdown"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+## R-Ladies-Lausanne
+
+R Markdown is based on Markdown, "an easy-to-read and easy-to-write plain text format, optionally convert it to structurally valid XHTML (or HTML)" (John Gruber & Aaron Schwartz). In RStudio, an integrated development environment for R provides a C++ wrapper function for a markdown variant called sundown. _[source: Wikipedia]_
+
+You can download the Cheat Sheet I distribute [here](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+
+__The structure of my R Markdown files:__
+
++ 1. text introduction to analysis
++ 2. initialization/setup
++ 3. code chunks and output
+
+1. My _R Markdown_ files usually begin with some information in __Markdown__ format (as above) which describes the analysis. Useful information can be found at [rmarkdown](https://rmarkdown.rstudio.com)
+
+2. Then, in the first 'chunk' (block of R code), I usually set the path to the folder in which I work, load necessary packages, define functions, etc. In the settings in the first line of the chunk I suppress showing the input (echo=FALSE) and the output (results='hide') in the final document. To avoid wordy warnings in the output, I suppress messages and warnings (warning=FALSE, message=FALSE). However, they will be displayes during creating 'knitting' the document. If I work on a simple dataset that doesn't need any processing, I also load it in this chunk. 
+
+3. After this the actual code with the interesting output comes
+
+## Initialization
+
+```{r initialization, warning=FALSE, message=FALSE, echo=FALSE, results='hide'}
+#setwd("/Users/claudiakasper/Desktop/")
+library(lmerTest)
+library(lme4)
+library(ggplot2)
+library(knitr)
+data("iris")
+
+simple_function <- function(a, b) { #this is a simple function
+  c <- a + b
+  print(c)
+}
+
+std.dev <- function(datavec) {
+  std <- sqrt(var(datavec))
+  print(std)
+}
+```
+
+_Neither input nor any output of this chunk is displayed in the final document_
+
+## Model Output
+
+```{r summary}
+summary(lmer(Petal.Length ~ Sepal.Length + (1|Species), data = iris))
+```
+
+If the whole output is not interesting, or if you want to display some additional statistics in the text, you can print them as in-line code: The mean sepal width across iris species is `r round(mean(iris$Sepal.Width), 2)` mm and the standard deviation 
+is `r round(std.dev(iris$Sepal.Width), 2)`.
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+p <- ggplot(data = iris, aes(x=Sepal.Length, y=Petal.Length)) + # , colour = Species
+            geom_point(colour = "darkgray") + geom_smooth(method = lm, colour = "black") 
+p + theme_light(base_size = 11, base_family = "Helvetica") + facet_grid(cols = vars(Species))
+```
+
+## Tables
+
+```{r table, echo=FALSE}
+kable(iris[1:10,1:4], caption = "This is how a table can look like")
+```
+
+## Extras:
+
++ collapsing/navigating
+
++ figure size, etc
+
++ RStudio v1.2.1047 for presentations as PDF
+
++ LaTeX mathematical formulas
+
+$R = h^2 * S$
+
++ [web page](https://bookdown.org/yihui/blogdown/), I am trying (but failing so far) with [hugo academic](https://themes.gohugo.io/academic/) 
+
++ fun stuff, e.g. [fontawesome](https://github.com/rstudio/fontawesome), [icon](https://github.com/ropenscilabs/icon), [anicon] (https://github.com/emitanaka/anicon)
+
+
+```{r warning=FALSE, message=FALSE}
+#install.packages("devtools")
+#install_github("rstudio/fontawesome")
+#install_github("ropenscilabs/icon")
+#install_github("emitanaka/anicon")
+
+
+library(fontawesome)
+library(anicon)
+library(icon)
+
+anicon::faa("rocket", size = 5, animate = "spin")
+anicon::faa("rocket", size = 5, rotate = 90)
+
+icon::fa("hourglass-start")
+icon::fa("hourglass-half")
+icon::fa("hourglass-end")
+
+ai_iconList # to see which icons are available
+fa_iconList
+```
+
+also see http://jpswalsh.github.io/academicons/ where you can even request a new icon by creating an issue
+
+local({r <- getOption("repos")
+      r["CRAN"] <- "https://stat.ethz.ch/CRAN/"#       options(repos=r)})
