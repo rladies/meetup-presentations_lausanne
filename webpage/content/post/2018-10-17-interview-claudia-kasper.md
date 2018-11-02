@@ -1,7 +1,7 @@
 ---
 title: Interview with Claudia Kasper
 author: ''
-date: '2018-10-17'
+date: '2018-11-01'
 slug: interview-claudia-kasper
 categories: 
   - interview
@@ -17,11 +17,14 @@ draft: true
 
 
 
-> *I think what I appreciate the most is how much energy people put into developing packages*
+> *I think what I appreciate the most about R, is, how much energy people put into developing packages.*
 
 
 
-Claudia Kasper [<i class="fab fa-twitter"></i>](https://twitter.com/claudia_kasper)[<i class="far fa-address-card"></i>](webpage)  ...
+Claudia Kasper [<i class="fab fa-twitter"></i>](https://twitter.com/claudia_kasper) gave a presentation about **Creating reproducible analyses and reports with R Markdown** on October 17 2018, at our 5th meetup. 
+
+
+<!----- [<i class="far fa-address-card"></i>](webpage)  ...-------->
 
 <a href="https://github.com/rladies/meetup-presentations_lausanne/blob/master/20181017_rmarkdown/slides/R-Ladies-Lausanne.html.zip" rel="noopener noreferrer" target="_blank"><img src="/files/img_slides.png" alt="Slides" height="70" /></a>
 
@@ -43,22 +46,22 @@ Claudia Kasper [<i class="fab fa-twitter"></i>](https://twitter.com/claudia_kasp
 
 <u>CK</u>: I use R to do quantitative genetics models, mainly Bayesian mixed effect models. And I also use it a lot for data handling, data visualization, and to bring the data into a form in which I can use it. 
 
-#### RLL: Which package do you use for Bayesian statistics? 
+#### RLL: Which R-package do you use for Bayesian statistics? 
 
 <u>CK</u>: It is called [{MCMCglmm}](https://cran.r-project.org/web/packages/MCMCglmm/index.html) but I want to learn another one more [Stan](http://mc-stan.org/) based, called [{brms}](https://cran.r-project.org/web/packages/brms/index.html). 
 
 
 
 #### RLL: Where and when did you learn R?
-<u>CK</u>: I remember exactly where I was. It was in early 2012 and I was working in Berlin as a research assistant at the [Wissenschaftskolleg](https://www.wiko-berlin.de/) in Berlin, which is a institute for advanced studies. At that time I was using Mathematica, but it is not free, difficult to get it and it does not update that often. And because I needed a specific function, I needed to use R. 
-In the beginning it was difficult to use R because it seemed so counterintuitive compared to Mathematica. And loading data was the worst. 
+<u>CK</u>: I remember exactly where I was. It was in early 2012 and I was working in Berlin as a research assistant at the [Wissenschaftskolleg](https://www.wiko-berlin.de/) in Berlin, which is a institute for advanced studies. At that time I was using Mathematica, but it is not free, difficult to get and it does not update that often. And because I needed a specific function, I needed to use R. 
+In the beginning it was difficult to use R because it seemed so counterintuitive compared to Mathematica and importing data was really difficult. 
 
 
-#### RLL: Did somebody help you or did you learn all by yourself? 
-<u>CK</u>: Yes, I had some guidance from colleagues that were working in the US at the time and that sent me scripts. And then I did a three-day intensive course in R that was really great at the [Freie Universität Berlin]( https://www.fu-berlin.de/).
+#### RLL: Did somebody help you or did you learn it all by yourself? 
+<u>CK</u>: I had some guidance from colleagues that were working in the US at the time and that sent me scripts. Later I did a three-day intensive R-course at the [Freie Universität Berlin]( https://www.fu-berlin.de/) that was really great.
 
 
-#### RLL: You have used Mathematica before, and now that you use R. What do you appreciate most about R?
+#### RLL: You have used Mathematica before and now use R. What do you appreciate most about R?
 
 <u>CK</u>: I think what I appreciate the most is how much energy people put into developing packages. Plus R is up to date and very flexible. Sometimes you need a very specific function and there might be a small package that does exactly what you want. 
 
@@ -76,16 +79,16 @@ In the beginning it was difficult to use R because it seemed so counterintuitive
 
 <u>CK</u>: I use the internet and usually find my answers, since I do not have very peculiar questions. I never had to post anything on stack exchange. 
 
-When I started using R it was difficult to even ask a question, because I did not know the right keywords. With experience I learned to ask better questions. Sometimes, if you formulate the question well and lay out everything you know, you find the answer yourself!
+When I started using R it was difficult to even ask a question - because I did not know the right keywords. With experience I learned to ask better questions. Sometimes, if you formulate a question well and lay out everything you know, you find the answer yourself!
 
 #### RLL: Do you have anything that you want to learn in R? 
 
-<u>CK</u>: Yes, I want to learn [{brms}](https://cran.r-project.org/web/packages/brms/index.html) for Bayesian mixed models, and I would also like to learn the *tidyverse*. I think I could save time there. And {shiny}, that would be nice too. 
+<u>CK</u>: Yes, I want to learn [{brms}](https://cran.r-project.org/web/packages/brms/index.html) for Bayesian mixed models, and I would also like to learn [{tidyr}](https://cran.r-project.org/web/packages/tidyr/index.html). I think I could save time there. And {shiny}, that would be nice too. 
 
 #### RLL: What motivated you to give a talk? 
-<u>CK</u>: You contacted me :-) I read about [R-Ladies Lausanne](https://twitter.com/rladieslausanne?lang=de) and wanted to come to one of the talks anyway. I do not feel proficient enough to contribute with a talk, so I would not have contacted you by myself. 
+<u>CK</u>: You contacted me :-) I read about [R-Ladies Lausanne](https://twitter.com/rladieslausanne?lang=de) and wanted to come to one of the talks anyway. In a way I do not feel proficient enough to contribute with a talk, so I would not have contacted you by myself. 
 
-But I like to teach R markdown and in fact after I said yes, I decided to give the same presentation at Agroscope.
+But I like to teach R markdown and in fact, after I said yes, I decided to give the same presentation at Agroscope.
 
 
 #### RLL: Do you have any free advertisement for a not-for profit organisation or resource? 
