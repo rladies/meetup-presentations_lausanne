@@ -10,7 +10,7 @@ tags:
   - interview
   - rmarkdown
   - animals
-draft: true
+draft: false
 ---
 
 
@@ -39,7 +39,7 @@ Claudia Kasper [<i class="fab fa-twitter"></i>](https://twitter.com/claudia_kasp
 
 #### R-Ladies Lausanne: Can you tell us about the work that you do?
 
-<u>Claudia Kasper</u>: I am a research scientist working on animal genetics at [Agroscope](https://www.agroscope.admin.ch/agroscope/en/home/about-us/agroscope.html), the Swiss research centre for agricultural research. At the moment I am working on a project for sustainable pig breeding where I evaluate the genetic potential of favourable and desirable traits in the Swiss pig population. My project is mostly concerned with metabolic traits, for example the optimal intake of nutrients. The goal is to import less pig food from abroad, especially from countries with rainforests. 
+<u>Claudia Kasper</u>: I am a research scientist working on animal genetics at [Agroscope](https://www.agroscope.admin.ch/agroscope/en/home/about-us/agroscope.html), the Swiss research centre for agricultural research. At the moment I am working on a project for sustainable pig breeding where I evaluate the genetic potential of favourable and desirable traits in the Swiss pig population. My project is mostly concerned with metabolic traits, for example the optimal intake of nutrients. The goal is to import less pig food from abroad, especially from countries in which sensitive ecosystems are compromised by the cultivation of feed crops, for instance the South American rain forests.
 
 
 #### RLL: What do you use R for at work?
