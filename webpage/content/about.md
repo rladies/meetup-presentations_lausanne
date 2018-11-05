@@ -8,6 +8,10 @@ author:
 
 [R-Ladies](https://rladies.org/) is a world-wide organization to **promote gender diversity** in the *R community*.
 
+## Upcoming Events
+
+Our next event is on **December 10 2018**. Details & registration coming soon.
+
 
 ## R-Ladies Global
 
