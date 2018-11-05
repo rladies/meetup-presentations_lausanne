@@ -16,7 +16,7 @@ enablefa = true
 
 [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "/"
     weight = 1
 [[menu.main]]
     name = "Events"
@@ -41,7 +41,6 @@ enablefa = true
 [[menu.main]]
     name = "Subscribe"
     url = "/index.xml"
-
 
 
 [params]
