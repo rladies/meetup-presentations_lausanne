@@ -15,24 +15,24 @@ enablefa = true
     note = "/note/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "News & Blogposts"
-    url = "/post/"
+    name = "About"
+    url = "/about/"
     weight = 1
-[[menu.main]]
-    name = "Community"
-    url = "/community/"
-    weight = 2
 [[menu.main]]
     name = "Events"
     url = "/events/"
+    weight = 2
+[[menu.main]]
+    name = "News & Blogposts"
+    url = "/post/"
     weight = 3
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Community"
+    url = "/community/"
     weight = 4
 [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "FAQ"
+    url = "/faq/"
     weight = 5
 [[menu.main]]
     name = "Tags"

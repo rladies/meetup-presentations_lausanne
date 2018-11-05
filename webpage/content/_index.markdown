@@ -18,7 +18,7 @@ Wonder what [R-Ladies Global](/about/#r-ladies-global) does and what the goal of
 R-Ladies lives through its audience and speakers. Checkout how you can contribute under: [community](/community/).
 
 ## FAQ
-**Q**: I'm not a frequent R user, and I'm afraid I won't understand the presentations.
+**Q: I'm not a frequent R user, and I'm afraid I won't understand the presentations.**
 
 *A: No worries! Our meetups are open to people from all levels and aim for networking too. We also encourage to ask questions if something is not clear.*
 
