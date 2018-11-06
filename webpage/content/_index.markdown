@@ -10,7 +10,7 @@ author:
 
 ## Upcoming Events
 
-Our next event is on **December 10 2018**. Details & registration coming soon.
+Our next event is on **December 10 2018** → [details & registration](https://www.meetup.com/rladies-lausanne/events/256147656/) for "thundeR talks" (short talks on mixed topics).
 
 
 ## R-Ladies Global
