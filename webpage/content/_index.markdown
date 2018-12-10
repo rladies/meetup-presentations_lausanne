@@ -10,7 +10,7 @@ author:
 
 ## Upcoming Events
 
-Our next event is in **January 2019** → see [meetup page](https://www.meetup.com/rladies-lausanne/events/) for more informations soon.
+Our next event will be in **January 2019** → see [meetup page](https://www.meetup.com/rladies-lausanne/events/) for more informations soon.
 
 
 ## R-Ladies Global
