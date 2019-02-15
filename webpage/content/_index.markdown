@@ -10,7 +10,7 @@ author:
 
 ## Upcoming Events
 
-Our next event will be on **February 13th 2019** → see [meetup page](https://www.meetup.com/rladies-lausanne/events/258120219/?isFirstPublish=true) for more informations.
+Our next event will be in **March 2019** → see [meetup page](https://www.meetup.com/rladies-lausanne/events/) for more informations.
 
 
 ## R-Ladies Global
@@ -40,10 +40,7 @@ We are currently three organisers (if you'd like to help - drop us a line!)
 - Ninon Mounier [<i class="fab fa-twitter"></i>](https://twitter.com/Nin0nM)
 - Sina R&uuml;eger [<i class="fab fa-twitter"></i>](https://twitter.com/sinarueeger)[<i class="far fa-address-card"></i>](https://sinarueeger.github.io/) <!--[<i class="fas fa-home"></i>](https://sinarueeger.github.io/)-->
 
-Past organizers are:
-
-- Andrea Komljenovic [<i class="fab fa-twitter"></i>](https://twitter.com/antifreezeprot)
-- Sarvenaz Choobdar [<i class="fab fa-twitter"></i>](https://twitter.com/sarvenazch)
+Inactive organizers are Andrea Komljenovic [<i class="fab fa-twitter"></i>](https://twitter.com/antifreezeprot) and Sarvenaz Choobdar [<i class="fab fa-twitter"></i>](https://twitter.com/sarvenazch).
 
 
  <figure>
