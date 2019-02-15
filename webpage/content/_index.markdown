@@ -34,12 +34,16 @@ There is also an [R-Ladies Remote](https://twitter.com/rladiesremote?lang=de) ch
 ## R-Ladies Lausanne
 The chapter in Lausanne was founded in November 2017. 
 
-We are currently four organisers (if you'd like to help - drop us a line!) 
+We are currently three organisers (if you'd like to help - drop us a line!) 
+
+- Liza Darrous [<i class="fab fa-twitter"></i>](https://twitter.com/LizaMGD)
+- Ninon Mounier [<i class="fab fa-twitter"></i>](https://twitter.com/Nin0nM)
+- Sina R&uuml;eger [<i class="fab fa-twitter"></i>](https://twitter.com/sinarueeger)[<i class="far fa-address-card"></i>](https://sinarueeger.github.io/) <!--[<i class="fas fa-home"></i>](https://sinarueeger.github.io/)-->
+
+Past organizers are:
 
 - Andrea Komljenovic [<i class="fab fa-twitter"></i>](https://twitter.com/antifreezeprot)
-- Ninon Mounier [<i class="fab fa-twitter"></i>](https://twitter.com/Nin0nM)
 - Sarvenaz Choobdar [<i class="fab fa-twitter"></i>](https://twitter.com/sarvenazch)
-- Sina R&uuml;eger [<i class="fab fa-twitter"></i>](https://twitter.com/sinarueeger)[<i class="far fa-address-card"></i>](https://sinarueeger.github.io/) <!--[<i class="fas fa-home"></i>](https://sinarueeger.github.io/)-->
 
 
  <figure>
