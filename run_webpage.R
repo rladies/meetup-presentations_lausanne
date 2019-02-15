@@ -23,7 +23,7 @@ blogdown::hugo_build()
 ## ---------------------------
 
 path <- getwd()
-comment <- "'add new event'"
+comment <- "'add old event'"
 
 ## b) commit changes of webpage folder
 ## add files system("git add ...")
