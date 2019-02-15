@@ -22,7 +22,7 @@ The mission of **R-Ladies** is to achieve proportionate representation of gender
 ### Chapters
 Chapters are somewhat similar to R-user groups. 
 
-There are plenty of chapters around the world, listed [here](https://github.com/rladies/starter-kit/blob/master/Current-Chapters.md). 
+There are plenty of chapters around the world, listed [here](https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv). 
 
 There is also an [app](https://gqueiroz.shinyapps.io/rshinylady/) that lists the current meetups and a [map](https://github.com/rladies/Map-RLadies-Growing) that shows the evolution over time.
 
