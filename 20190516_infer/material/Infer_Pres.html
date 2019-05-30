@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Statistical inference in the tidyverse framework: the Infer package</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Elise Dupuis Lozeron" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Statistical inference in the tidyverse framework: the Infer package
+## R Ladies
+### Elise Dupuis Lozeron
+### May 16th 2019
+
+---
+
+
+
+
+
+
+
+
+---
+
+## Goals of this new package
+
+- "The objective of this package is to perform statistical inference using an expressive statistical grammar that coheres with the tidyverse design framework." (source: https://infer.netlify.com/)
+
+- Implement **common statistical inference** (i.e. confidence intervals for difference in means and proportions, t test, Chi-Square test) in the **tidyverse** framework
+
+- Implement common statistical inference in a way that makes the **underlying procedure more "transparent" **
+
+- Allow the use of **simulations** to compute classical tests and confidence intervals for beginners
+
+---
+class: inverse, center, middle
+
+# Implementation in the tidyverse framework
+
+---
+
+class: middle
+
+## Motivating example
+
+- Data from a cohort study (Adler &amp; al, 2017,  Comorbidities and Subgroups of Patients Surviving Severe Acute Hypercapnic Respiratory Failure in the Intensive Care Unit, AJRCCM)
+
+- Seventy-eight ICU patients admitted for an episode of acute hypercapnic respiratory failure
+
+- Follow-up over 1 year
+
+- Outcome of interest: readmission or death
+
+---
+
+## Motivating example
+
+
+```
+# A tibble: 45 x 9
+   mnpaid    Age Gender Height Weight  FEV1 COPD  Event PaCO2_adm_SI
+   &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;        &lt;dbl&gt;
+ 1 ARC-001  63.0      1    175    124  2.09 yes   yes            7.8
+ 2 ARC-002  73.0      1    157     61  1.13 no    no            10.6
+ 3 ARC-003  77.5      1    179     82  1.08 yes   yes            8.2
+ 4 ARC-004  82.1      1    173     92  1.09 no    no             7.9
+ 5 ARC-007  71.0      2    147     71  1.34 yes   no             7.4
+ 6 ARC-008  55.3      1    180     47  1.27 no    yes            7.8
+ 7 ARC-009  67.2      2    152    112  1.47 yes   yes            8.8
+ 8 ARC-011  73.1      2    145     56  0.33 yes   no             6.8
+ 9 ARC-012  65.3      1    176    150  1.43 yes   yes            8.6
+10 ARC-013  77.1      2    165    120  1.45 no    no             9.4
+# … with 35 more rows
+```
+
+---
+
+
+## Motivating example
+
+
+- Suppose that we are interested in the association between COPD and readmission or death (Event)
+
+- Are COPD patients at higher risk of readmission or death?
+
+- Which hypothesis test should we conduct ?
+
+- And what if we are interested in the association between FEV1 and readmission or death (Event) ?
+
+---
+
+## Association between COPD and readmission or death
+
+- Descriptive analysis
+
+
+```r
+BDD_ajrccm %&gt;% count(COPD, Event)
+```
+
+```
+# A tibble: 4 x 3
+  COPD  Event     n
+  &lt;chr&gt; &lt;chr&gt; &lt;int&gt;
+1 no    no        6
+2 no    yes       7
+3 yes   no       12
+4 yes   yes      20
+```
+
+```r
+BDD_ajrccm %&gt;% 
+  janitor::tabyl(COPD, Event) %&gt;%
+  janitor::adorn_totals(where = c("row", "col")) %&gt;%
+  janitor::adorn_percentages() %&gt;%
+  janitor::adorn_pct_formatting(digits=2) %&gt;% 
+  janitor::adorn_ns()
+```
+
+```
+  COPD          no         yes        Total
+    no 46.15%  (6) 53.85%  (7) 100.00% (13)
+   yes 37.50% (12) 62.50% (20) 100.00% (32)
+ Total 40.00% (18) 60.00% (27) 100.00% (45)
+```
+
+
+---
+
+## Association between COPD and readmission or death
+
+- Statistical test : Chi-Square test 
+
+- If we try to use the `chisq.test` in a "tidyverse" way:
+
+
+```r
+chisq.test(BDD_ajrccm, COPD, Event)
+```
+
+```
+Error in sum(x): 'type' (character) de l'argument incorrect
+```
+
+
+- OK :
+
+
+```r
+chisq.test(BDD_ajrccm$COPD, BDD_ajrccm$Event)
+```
+
+```
+
+	Pearson's Chi-squared test with Yates' continuity correction
+
+data:  BDD_ajrccm$COPD and BDD_ajrccm$Event
+X-squared = 0.040565, df = 1, p-value = 0.8404
+```
+
+```r
+class(chisq.test(BDD_ajrccm$COPD, BDD_ajrccm$Event))
+```
+
+```
+[1] "htest"
+```
+
+---
+
+## Association between COPD and readmission or death
+
+- Statistical test : test of equality of 2 proportions
+
+- Using `prop.test` function
+
+
+```r
+prop.test(x = c(7, 20), n = c(13, 32))
+```
+
+```
+
+	2-sample test for equality of proportions with continuity
+	correction
+
+data:  c(7, 20) out of c(13, 32)
+X-squared = 0.040565, df = 1, p-value = 0.8404
+alternative hypothesis: two.sided
+95 percent confidence interval:
+ -0.4593298  0.2862529
+sample estimates:
+   prop 1    prop 2 
+0.5384615 0.6250000 
+```
+
+---
+
+## Association between FEV1 and readmission or death
+
+- Descriptive analysis
+
+
+```r
+BDD_ajrccm %&gt;% 
+  group_by(Event) %&gt;% 
+  summarise(mean_fev1 = mean(FEV1), sd_fev1 = sd(FEV1))
+```
+
+```
+# A tibble: 2 x 3
+  Event mean_fev1 sd_fev1
+  &lt;chr&gt;     &lt;dbl&gt;   &lt;dbl&gt;
+1 no         1.02   0.451
+2 yes        1.12   0.404
+```
+
+---
+## Association between FEV1 and readmission or death
+
+
+```r
+BDD_ajrccm %&gt;% 
+  ggplot(aes(x = Event, y = FEV1)) + geom_boxplot()
+```
+
+![](Infer_Pres_files/figure-html/unnamed-chunk-8-1.png)&lt;!-- --&gt;
+
+---
+
+## Association between FEV1 and readmission or death
+
+
+- Statistical test : test of equality of 2 means, i.e. t-test
+
+- Using `t.test` function
+
+
+```r
+t.test(data = BDD_ajrccm, FEV1 ~ Event)
+```
+
+```
+
+	Welch Two Sample t-test
+
+data:  FEV1 by Event
+t = -0.71413, df = 33.747, p-value = 0.4801
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.3618594  0.1737113
+sample estimates:
+ mean in group no mean in group yes 
+         1.023333          1.117407 
+```
+
+
+```r
+t.test(BDD_ajrccm$FEV1[BDD_ajrccm$Event== "no"], BDD_ajrccm$FEV1[BDD_ajrccm$Event== "yes"])
+```
+---
+
+class: middle
+
+## Tidyverse framework
+
+- Dataframe in, dataframe out
+
+- Function should be "pipable"
+
+- 1st argument is the name of the tibble
+
+- Could use formula 
+
+---
+class: inverse, center, middle
+
+# Perform statistical inference using an expressive statistical grammar and simulations
+
+---
+
+## Logic of hypothesis testing
+
+- A statistical test is a way to decide between 2 hypotheses:
+  
+     - The null hypothesis `\(\mathrm{H_0}\)`: there is no association between COPD and readmission or death
+    
+    - The alternative hypothesis `\(\mathrm{H_1}\)`: an association exists between COPD and readmission or death
+    
+- Logic behind all hypothesis testing:
+
+      - Take a random sample (or samples) from a population (or multiple populations)
+
+      - If the sample data are consistent with `\(\mathrm{H_0}\)` do not reject `\(\mathrm{H_0}\)`
+      
+      - If the sample data are inconsistent with `\(\mathrm{H_0}\)`, reject `\(\mathrm{H_0}\)` and conclude that there is evidence that `\(\mathrm{H_1}\)` is true (based on the particular sample collected).
+
+---
+
+## Logic of hypothesis testing
+
+- How do we decide that the data are consistent or not with `\(\mathrm{H_0}\)`?
+
+    - We compute a test statistic `\(\delta\)` based on the data `\(\rightarrow\)` `\(\delta^{\star}\)`
+    
+    - Based on the distribution of `\(\delta\)` under `\(\mathrm{H_0}\)`, we compute the probablity of observing a value of `\(\delta\)` as extreme of more extreme than `\(\delta^{\star}\)` `\(\rightarrow\)` p-value
+    
+    - How do we know the distribution of `\(\delta\)` under `\(\mathrm{H_0}\)`: via statistical theory or via simulations
+    
+- Authors of the `infer` package want to emphasize the common underlying logic behind all statistical tests
+
+---
+
+## Confusing view of hypothesis testing
+
+[![flowchart](Images/testing_diagram2.png)](https://i.pinimg.com/originals/e5/ea/32/e5ea322d61bd36a5062080b1b5fe6daa.gif)
+---
+
+class: middle
+
+
+[![Only One Test](Images/downey.png)](http://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html)
+
+This diagramm was the inspiration for the infer pipeline
+
+.footer[Source: http://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html]
+
+
+---
+
+## Hypothesis testing via simulations
+
+- How do we simulate data assuming that `\(\mathrm{H_0}\)` is true?
+
+- By using permutations
+
+- Back to the association between COPD and readmission/death: if we assume that there is no association, we can shuffle the "yes" or "no" values for the variable coding readmission/death to create a new sample
+
+- We then compute a new value ot the test statistic `\(\delta\)` on this new simulated sample
+
+- We can repeat these 2 steps 5000 times and compute on how many samples the computed `\(\delta\)` were more extreme than the one observed on the data `\(\delta^{\star}\)`
+
+---
+
+## One sample obtained via permutation
+
+- We compare the original sample with the sample obtained via permutation
+
+
+
+
+
+```r
+BDD_ajrccm %&gt;% 
+  janitor::tabyl(Event, COPD) %&gt;% 
+  janitor::adorn_totals(where = c("row", "col"))
+```
+
+```
+ Event no yes Total
+    no  6  12    18
+   yes  7  20    27
+ Total 13  32    45
+```
+
+```r
+perm1 %&gt;% 
+  janitor::tabyl(Event, COPD) %&gt;% 
+  janitor::adorn_totals(where = c("row", "col"))
+```
+
+```
+ Event no yes Total
+    no  4  14    18
+   yes  9  18    27
+ Total 13  32    45
+```
+
+---
+
+## One sample obtained via permutation
+
+- We compare the test statistic obtained on the original sample with the one computed on permuted sample
+
+
+```r
+chisq.test(BDD_ajrccm$COPD, BDD_ajrccm$Event)$statistic
+```
+
+```
+X-squared 
+0.0405649 
+```
+
+```r
+chisq.test(perm1$COPD, perm1$Event)$statistic
+```
+
+```
+X-squared 
+0.2208534 
+```
+
+
+---
+
+### Distribution of the test statistic obtained with 5000 permutations
+
+
+```
+# A tibble: 5,000 x 2
+   replicate     stat
+       &lt;int&gt;    &lt;dbl&gt;
+ 1         1 2.53e-31
+ 2         2 7.62e- 1
+ 3         3 2.21e- 1
+ 4         4 2.53e-31
+ 5         5 4.06e- 2
+ 6         6 2.21e- 1
+ 7         7 3.29e+ 0
+ 8         8 2.53e-31
+ 9         9 3.29e+ 0
+10        10 2.21e- 1
+# … with 4,990 more rows
+```
+
+---
+
+### Distribution of the test statistic obtained with 5000 permutations
+
+![](Infer_Pres_files/figure-html/unnamed-chunk-15-1.png)&lt;!-- --&gt;
+
+### Theoretical distribution of the test statistic
+
+![](Infer_Pres_files/figure-html/unnamed-chunk-16-1.png)&lt;!-- --&gt;
+
+---
+class: inverse, center, middle
+
+# The infer pipeline
+
+---
+
+class: middle
+
+
+![](Images/Infer_pipe_test.jpeg)
+
+
+---
+
+class: middle
+
+## Association between COPD and death or readmission
+
+
+```r
+BDD_ajrccm %&gt;% 
+  specify(Event ~ COPD, success = "yes") %&gt;% 
+  hypothesize(null = "independence") %&gt;% 
+  generate(reps = 1000, type = "permute") %&gt;% 
+  calculate(stat = "Chisq", order = c("yes", "no"))
+```
+
+```
+# A tibble: 1,000 x 2
+   replicate     stat
+       &lt;int&gt;    &lt;dbl&gt;
+ 1         1 2.21e- 1
+ 2         2 2.21e- 1
+ 3         3 2.53e-31
+ 4         4 6.17e+ 0
+ 5         5 2.53e-31
+ 6         6 4.06e- 2
+ 7         7 1.30e+ 0
+ 8         8 2.21e- 1
+ 9         9 2.21e- 1
+10        10 2.21e- 1
+# … with 990 more rows
+```
+
+---
+
+class: middle
+
+## Association between COPD and death or readmission
+
+
+
+
+
+
+```r
+visualize(sim_Chi2) +
+  shade_p_value(obs_stat = obs_chi2, direction = "greater")
+```
+
+![](Infer_Pres_files/figure-html/unnamed-chunk-19-1.png)&lt;!-- --&gt;
+
+
+
+---
+
+
+
+## Association between FEV1 and death or readmission
+
+
+```r
+obs_ttest &lt;- BDD_ajrccm %&gt;% 
+  specify(FEV1 ~ Event) %&gt;% 
+  calculate(stat = "t", order = c("yes", "no"))
+sim_ttest &lt;- BDD_ajrccm %&gt;% 
+  specify(FEV1 ~ Event) %&gt;% 
+  hypothesize(null = "independence") %&gt;% 
+  generate(reps = 1000, type = "permute") %&gt;% 
+  calculate(stat = "t", order = c("yes", "no"))
+
+visualize(sim_ttest, method = "both") +
+  shade_p_value(obs_stat = obs_ttest, direction = "both")
+```
+
+![](Infer_Pres_files/figure-html/unnamed-chunk-20-1.png)&lt;!-- --&gt;
+
+---
+
+class: middle
+
+## Tidier-version functions
+
+
+```r
+BDD_ajrccm %&gt;% 
+  chisq_test(formula = Event ~ COPD)
+```
+
+```
+# A tibble: 1 x 3
+  statistic chisq_df p_value
+      &lt;dbl&gt;    &lt;int&gt;   &lt;dbl&gt;
+1    0.0406        1   0.840
+```
+
+```r
+BDD_ajrccm %&gt;% 
+  mutate(Event = factor(Event)) %&gt;% 
+  t_test(formula = FEV1 ~ Event, order = c("yes", "no"))
+```
+
+```
+# A tibble: 1 x 6
+  statistic  t_df p_value alternative lower_ci upper_ci
+      &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;          &lt;dbl&gt;    &lt;dbl&gt;
+1     0.714  33.7   0.480 two.sided     -0.174    0.362
+```
+
+---
+class: middle
+
+## Short-cut functions
+
+
+```r
+BDD_ajrccm %&gt;% 
+  t_stat(formula = FEV1 ~ Event, order = c("yes", "no"))
+```
+
+```
+# A tibble: 1 x 1
+  statistic
+      &lt;dbl&gt;
+1     0.714
+```
+
+---
+class: inverse, center, middle
+
+# The infer pipeline for confidence intervals
+
+---
+
+class: middle
+
+
+![](Images/Infer_pipe_CI.jpeg)
+
+
+---
+
+### Simulation-based confidence interval for the difference between two means
+
+
+
+
+```r
+BDD_ajrccm %&gt;% 
+  specify(FEV1 ~ Event) %&gt;% 
+  calculate(stat = "diff in means", order = c("yes", "no"))
+```
+
+```
+# A tibble: 1 x 1
+    stat
+   &lt;dbl&gt;
+1 0.0941
+```
+
+```r
+(bootstrap_distribution &lt;-  BDD_ajrccm %&gt;% 
+  specify(FEV1 ~ Event) %&gt;% 
+  generate(reps = 1000, type = "bootstrap") %&gt;% 
+  calculate(stat = "diff in means", order = c("yes", "no")))
+```
+
+```
+# A tibble: 1,000 x 2
+   replicate     stat
+       &lt;int&gt;    &lt;dbl&gt;
+ 1         1 -0.175  
+ 2         2  0.154  
+ 3         3  0.188  
+ 4         4  0.0715 
+ 5         5 -0.0162 
+ 6         6  0.00315
+ 7         7  0.0930 
+ 8         8  0.181  
+ 9         9  0.196  
+10        10  0.0967 
+# … with 990 more rows
+```
+
+
+---
+
+### Simulation-based confidence interval for the difference between two means
+
+
+```r
+(percentile_ci &lt;- bootstrap_distribution %&gt;% 
+  get_ci())
+```
+
+```
+# A tibble: 1 x 2
+  `2.5%` `97.5%`
+   &lt;dbl&gt;   &lt;dbl&gt;
+1 -0.162   0.336
+```
+
+
+
+```r
+visualize(bootstrap_distribution) +
+  shade_confidence_interval(endpoints = percentile_ci)
+```
+
+![](Infer_Pres_files/figure-html/unnamed-chunk-25-1.png)&lt;!-- --&gt;
+
+---
+class: inverse, center, middle
+
+# Conclusion
+
+---
+
+class: middle
+
+## What is available yet
+
+- One numerical variable (mean and median)
+- One categorical variable
+
+- Two categorical variable (2 or more levels, gof tests)
+- One numerical variable and one categorical variable with 2 levels (diff in means, diff in medians)
+
+- One numerical variable and one categorical variable with more than 2 levels : ANOVA
+
+- Two numerical variables : correlation and linear regression
+
+
+---
+
+class: middle
+
+## More info 
+
+- https://infer.netlify.com
+
+- https://www.ModernDive.com
+
+- http://perso.ens-lyon.fr/lise.vaudor/grimoireStat/_book
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
