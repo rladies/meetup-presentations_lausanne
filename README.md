@@ -11,7 +11,8 @@ See [here](https://rladieslausanne.github.io/events/).
 R-Ladies lives through its participants. We *ALWAYS* need speakers for meetups! Please get in touch with us at <lausanne@rladies.org>. 
 
 ## Further information
-Organisers are: [Andrea Komljenovic](https://twitter.com/antifreezeprot), [Ninon Mounier](https://wp.unil.ch/sgg/ninon-mounier/), [Sarvenaz Choobdar](https://www2.unil.ch/cbg/index.php?title=User:Sarvenaz) and [Sina R&uuml;eger](https://twitter.com/sinarueeger).
+Current organisers are:  [Liza Darrous](https://twitter.com/LizaMGD) and [Ninon Mounier](https://twitter.com/Nin0nM).   
+Inactive organizers are: [Andrea Komljenovic](https://twitter.com/antifreezeprot), [Sarvenaz Choobdar](https://www2.unil.ch/cbg/index.php?title=User:Sarvenaz) and [Sina R&uuml;eger](https://twitter.com/sinarueeger).
 
 You can contact us via <lausanne@rladies.org>.
 
