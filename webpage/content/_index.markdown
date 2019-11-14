@@ -10,7 +10,7 @@ author:
 
 ## Upcoming Events
 
-Our next event will be in **March 2019** → see [meetup page](https://www.meetup.com/rladies-lausanne/events/) for more informations.
+Our next event will be in **December 3rd 2019** → see [meetup page]() for more informations.
 
 
 ## R-Ladies Global
@@ -34,13 +34,13 @@ There is also an [R-Ladies Remote](https://twitter.com/rladiesremote?lang=de) ch
 ## R-Ladies Lausanne
 The chapter in Lausanne was founded in November 2017. 
 
-We are currently three organisers (if you'd like to help - drop us a line!) 
+We are currently two organisers (if you'd like to help - drop us a line!) 
 
 - Liza Darrous [<i class="fab fa-twitter"></i>](https://twitter.com/LizaMGD)
 - Ninon Mounier [<i class="fab fa-twitter"></i>](https://twitter.com/Nin0nM)
-- Sina R&uuml;eger [<i class="fab fa-twitter"></i>](https://twitter.com/sinarueeger)[<i class="far fa-address-card"></i>](https://sinarueeger.github.io/) <!--[<i class="fas fa-home"></i>](https://sinarueeger.github.io/)-->
+- -->
 
-Inactive organizers are Andrea Komljenovic [<i class="fab fa-twitter"></i>](https://twitter.com/antifreezeprot) and Sarvenaz Choobdar [<i class="fab fa-twitter"></i>](https://twitter.com/sarvenazch).
+Inactive organizers are Sina R&uuml;eger [<i class="fab fa-twitter"></i>](https://twitter.com/sinarueeger)[<i class="far fa-address-card"></i>](https://sinarueeger.github.io/) <!--[<i class="fas fa-home"></i>](https://sinarueeger.github.io/), Andrea Komljenovic [<i class="fab fa-twitter"></i>](https://twitter.com/antifreezeprot) and Sarvenaz Choobdar [<i class="fab fa-twitter"></i>](https://twitter.com/sarvenazch).
 
 
  <figure>

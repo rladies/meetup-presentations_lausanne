@@ -3,7 +3,7 @@ title: Events
 author: 
 ---
 
-In 2019, we will try to have a meetup once month (4th week of the month). 
+In 2020, we will try to have a meetup once month (4th week of the month). 
 
 The content of our meetups varies: 
 
@@ -17,7 +17,7 @@ We also encourage you to **bring along your R problems** 30 min before the meetu
 
 ## Upcoming Events
 
-Our next event will be on **February 13th 2019** → see [meetup page](https://www.meetup.com/rladies-lausanne/events/258120219/?isFirstPublish=true) for more informations.
+Our next event will be on **December 3rd 2019** → see [meetup page]() for more informations.
 
 <!--- ### Autumn 2018 We are thinking about a Hackathon-->
 
@@ -31,6 +31,6 @@ Our next event will be on **February 13th 2019** → see [meetup page](https://w
 | 17-Oct-2018 | 6.00 pm | [Creating reproducible analyses and reports with R Markdown](https://www.meetup.com/rladies-lausanne/events/254756623/) by [Claudia Kasper](https://twitter.com/claudia_kasper)| Tutorial |  [Swisscom Digital Lab @ EPFL](https://goo.gl/maps/FgR9FPv33LA2) |  [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20181017_rmarkdown/slides) |
 | 10-Dec-2018 | noon | [ThundeR talks](https://www.meetup.com/rladies-lausanne/events/256147656/) by [Vittoria Rezzonico](https://people.epfl.ch/vittoria.rezzonico)| Short talks on mixed topics |  [EPFL CM 1 113](https://plan.epfl.ch/?room==CM%201%20113) | [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20181210_thundeR/README.md)  |
 | 13-Feb-2019 | noon | Watching conference talks|  | |  |
-| dd-mm-2019 | noon | [Collecting Twitter data with R](https://www.meetup.com/rladies-lausanne/events/258120219/?isFirstPublish=true) by [Elise Tancoigne]( http://citizensciences.net/elise-tancoigne/)| Tutorial |  [EPFL CM 1 221](https://plan.epfl.ch/?room==CM%201%20221) | All material will be added after the event  |
-
-
+| 16-Apr-2019 | noon | [Collecting Twitter data with R](https://www.meetup.com/rladies-lausanne/events/258120219/?isFirstPublish=true) by [Elise Tancoigne]( http://citizensciences.net/elise-tancoigne/)| Tutorial |  [Bugnon 27 Room 120 - Lipari](https://plan.epfl.ch/?room==CM%201%20221) | [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20190417_twitter/material)  |
+| 16-May-2019 | 6.00 pm | [Statistical inference in the tidyverse framework: the Infer package.](https://www.meetup.com/fr-FR/rladies-lausanne/events/261037428/) by [Elise Dupuis Lozeron]| Tutorial |  [EPFL CM 1 113](https://plan.epfl.ch/?room==CM%201%20113) | [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20190516_infer/material)  |
+| 2-Jul-2019 | 6.30 pm | [Thunder talks.](https://www.meetup.com/fr-FR/rladies-lausanne/events/262507407/) by Liza Darrous, Jenny Sjaarda and Ninon Mounier| Short talks on mixed topics  [EPFL SV 35 10](https://plan.epfl.ch/?room==SV%203510) | [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20190702_thundeR)  |
