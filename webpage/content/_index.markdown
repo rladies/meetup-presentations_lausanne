@@ -38,7 +38,6 @@ We are currently two organisers (if you'd like to help - drop us a line!)
 
 - Liza Darrous [<i class="fab fa-twitter"></i>](https://twitter.com/LizaMGD)
 - Ninon Mounier [<i class="fab fa-twitter"></i>](https://twitter.com/Nin0nM)
-- 
 
 Inactive organizers are Sina R&uuml;eger [<i class="fab fa-twitter"></i>](https://twitter.com/sinarueeger)[<i class="far fa-address-card"></i>](https://sinarueeger.github.io/) <!--[<i class="fas fa-home"></i>](https://sinarueeger.github.io/)-->, Andrea Komljenovic [<i class="fab fa-twitter"></i>](https://twitter.com/antifreezeprot) and Sarvenaz Choobdar [<i class="fab fa-twitter"></i>](https://twitter.com/sarvenazch).
 
