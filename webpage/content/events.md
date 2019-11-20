@@ -17,7 +17,7 @@ We also encourage you to **bring along your R problems** 30 min before the meetu
 
 ## Upcoming Events
 
-Our next event will be on **December 3rd 2019** → see [meetup page](http://tiny.cc/RLadiesLausanne-Dec3) for more informations.
+Our next event will be on **December 3rd 2019** → see [meetup page]((http://meetu.ps/c/3Flzf/vBnX0/f) for more informations.
 
 <!--- ### Autumn 2018 We are thinking about a Hackathon-->
 
@@ -35,5 +35,4 @@ Our next event will be on **December 3rd 2019** → see [meetup page](http://tin
 | 16-Apr-2019 | noon | [Collecting Twitter data with R](https://www.meetup.com/rladies-lausanne/events/258120219/?isFirstPublish=true) by [Elise Tancoigne]( http://citizensciences.net/elise-tancoigne/)| Tutorial |  [Bugnon 27 Lipari](https://plan.epfl.ch/?room==CM%201%20221) | [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20190417_twitter/material)  |
 | 16-May-2019 | 6.00 pm | [Statistical inference in the tidyverse framework: the Infer package.](https://www.meetup.com/fr-FR/rladies-lausanne/events/261037428/) by Elise Dupuis Lozeron| Tutorial |  [EPFL CM 1 113](https://plan.epfl.ch/?room==CM%201%20113) | [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20190516_infer/material)  |
 | 2-Jul-2019 | 6.30 pm | [Thunder talks](https://www.meetup.com/fr-FR/rladies-lausanne/events/262507407/) by [Liza Darrous](https://twitter.com/LizaMGD), [Jenny Sjaarda](https://twitter.com/jenny_sjaarda) and [Ninon Mounier](https://twitter.com/Nin0nM)| Short talks on mixed topics | [EPFL SV 35 10](https://plan.epfl.ch/?room==SV%203510) | [All material](https://github.com/rladies/meetup-presentations_lausanne/tree/master/20190702_thundeR)  |
-| 3-Dec-2019 | 6.30 pm | [Tidy up your data science workflow with the tidyverse.](http://tiny.cc/RLadiesLausanne-Dec3) by Mine Çetinkaya-Rundel
-| Talk+Demo |  [UNIL GEN-2016](https://planete.unil.ch/plan/?share=bba146ff-b8c9-4034-8f00-671386edac6c) | All material will be added after the event  |
+| 3-Dec-2019 | 6.30 pm | [Tidy up your data science workflow with the tidyverse.](http://tiny.cc/RLadiesLausanne-Dec3) by Mine Çetinkaya-Rundel | Talk+Demo |  [UNIL GEN-2016](https://planete.unil.ch/plan/?share=bba146ff-b8c9-4034-8f00-671386edac6c) | All material will be added after the event  |
