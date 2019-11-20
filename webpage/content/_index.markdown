@@ -10,7 +10,7 @@ author:
 
 ## Upcoming Events
 
-Our next event (Mine Çetinkaya-Runde introducing the tidyverse framework) will be on **December 3rd 2019** → see [meetup page](http://meetu.ps/c/3Flzf/vBnX0/f) for more informations.
+Our next event (Mine Çetinkaya-Runde introducing the tidyverse framework) will be held on **December 3rd 2019** → see [meetup page](http://meetu.ps/c/3Flzf/vBnX0/f) for more informations.
 
 
 ## R-Ladies Global

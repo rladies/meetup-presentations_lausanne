@@ -17,7 +17,7 @@ We also encourage you to **bring along your R problems** 30 min before the meetu
 
 ## Upcoming Events
 
-Our next event will be on **December 3rd 2019** → see [meetup page]((http://meetu.ps/c/3Flzf/vBnX0/f) for more informations.
+Our next event will be take place on **December 3rd 2019** → see [meetup page]((http://meetu.ps/c/3Flzf/vBnX0/f) for more informations.
 
 <!--- ### Autumn 2018 We are thinking about a Hackathon-->
 
